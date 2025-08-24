@@ -918,6 +918,26 @@ body {
     border-radius: 0.75rem;
 }
 
+.candidate-name {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 0.25rem;
+}
+
+.file-name {
+    font-size: 0.875rem;
+    color: #9ca3af;
+    font-weight: 400;
+}
+
+.score-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .score-display {
     text-align: center;
 }
@@ -925,8 +945,19 @@ body {
 .score-number {
     font-size: 3rem;
     font-weight: 800;
-    color: #3b82f6;
     line-height: 1;
+}
+
+.score-number.positive {
+    color: #065f46;
+}
+
+.score-number.negative {
+    color: #991b1b;
+}
+
+.score-number.neutral {
+    color: #374151;
 }
 
 .score-label {
@@ -944,17 +975,14 @@ body {
 }
 
 .recommendation-badge.positive {
-    background: #d1fae5;
     color: #065f46;
 }
 
 .recommendation-badge.negative {
-    background: #fee2e2;
     color: #991b1b;
 }
 
 .recommendation-badge.neutral {
-    background: #f3f4f6;
     color: #374151;
 }
 

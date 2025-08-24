@@ -78,6 +78,7 @@ Please analyze the match and provide:
 
 Format your response as JSON with the following structure:
 {{
+    "candidate_name": "<candidate name>",
     "match_score": <number>,
     "reasoning": "<detailed explanation>",
     "strengths": ["<strength1>", "<strength2>", ...],
@@ -135,6 +136,7 @@ Be objective, thorough, and provide actionable insights.
             
             # Structure the final response
             return {
+                "candidate_name": analysis_data.get("candidate_name", "No candidate name provided"),
                 "match_score": analysis_data.get("match_score", 0),
                 "reasoning": analysis_data.get("reasoning", "No reasoning provided"),
                 "strengths": analysis_data.get("strengths", []),
@@ -148,6 +150,7 @@ Be objective, thorough, and provide actionable insights.
         except (json.JSONDecodeError, KeyError, IndexError) as e:
             # If parsing fails, return a structured error response
             return {
+                "candidate_name": "No candidate name provided",
                 "error": f"Failed to parse AI response: {str(e)}",
                 "match_score": 0,
                 "reasoning": "Unable to parse AI analysis",

@@ -9,10 +9,6 @@ from .deepseek_analyzer import analyze_resume_job_match
 from datetime import datetime
 import requests
 
-print(f"======= {datetime.now()} =======")
-response = requests.post("https://api.deepseek.com/chat/completions", json={"model": "deepseek-chat", "messages": [{"role": "user", "content": "Hello, how are you?"}]}, headers={"Authorization": f"Bearer sk-39d33f79efa643428aaec1f487e25546", "Content-Type": "application/json"})
-print(response.text)
-print(f"======= {datetime.now()} =======")
 
 # Get static files path
 static_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "public")
@@ -114,6 +110,7 @@ def upload_resume():
                 ai_analysis = analyze_resume_job_match(job_description, extracted_text)
             else:
                 ai_analysis = {
+                    'candidate_name': 'John Doe',
                     'match_score': 35, 
                     'reasoning': "The candidate has relevant software engineering experience at reputable tech companies (Stripe, Netflix) and demonstrates technical skills in modern development practices. However, there are significant gaps in meeting the specific requirements of this role. The resume shows no evidence of Python programming proficiency (a required qualification), no experience with financial services or trading environments, no mention of interest rate derivatives or yield curve construction knowledge, and no front-end technology experience with React/TypeScript or Python/ENAML. The candidate's experience appears to be primarily in data engineering rather than the trading desk application development focus required for this role. The lack of financial domain knowledge and specific technical stack alignment significantly reduces the match score.", 
                     'strengths': ['Experience at reputable tech companies (Stripe, Netflix)', 'Background in developing scalable applications', 'Familiarity with modern development practices and cloud technologies', 'Experience with cross-functional collaboration', 'Knowledge of system performance optimization'], 
@@ -145,6 +142,7 @@ def upload_resume():
             "message": "Resume processed successfully",
             "filename": filename,
             "job_description": job_description,
+            "candidate_name": ai_analysis.get('candidate_name', 'No candidate name provided'),
             "match_score": ai_analysis.get('match_score', 0),
             "summary": ai_analysis.get('summary', 'No summary available'),
             "strengths": ai_analysis.get('strengths', ['None identified']),
@@ -154,8 +152,6 @@ def upload_resume():
             "extraction_data": extraction_result,
             "timestamp": datetime.now().isoformat()
         }
-        print(response['match_score'])
-        print(response['summary'])
         return jsonify(response)
 
     except Exception as e:

@@ -7,6 +7,7 @@ const navLinks = document.querySelector('.nav-links');
 
 // File handling
 let uploadedFiles = [];
+let processedFiles = new Set(); // Track files that have been processed
 
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
@@ -69,51 +70,43 @@ function handleFiles(files) {
     const maxFileSize = 10 * 1024 * 1024; // 10MB
 
     Array.from(files).forEach(file => {
-        if (validTypes.includes(file.type) && file.size <= maxFileSize) {
-            if (!uploadedFiles.find(f => f.name === file.name && f.size === file.size)) {
-                uploadedFiles.push(file);
-            }
-        } else {
-            alert(`File "${file.name}" is not supported or too large. Please upload PDF, DOC, DOCX files under 10MB.`);
+        // Create a unique identifier for the file
+        const fileId = `${file.name}_${file.size}_${file.lastModified}`;
+        
+        if (!validTypes.includes(file.type)) {
+            alert(`File "${file.name}" is not supported. Please upload PDF files only.`);
+            return;
         }
+        
+        if (file.size > maxFileSize) {
+            alert(`File "${file.name}" is too large. Please upload files under 10MB.`);
+            return;
+        }
+        
+        // Check if file has already been processed
+        if (processedFiles.has(fileId)) {
+            alert(`File "${file.name}" has already been uploaded and processed.`);
+            return;
+        }
+        
+        // Check if file is already in the upload queue
+        if (uploadedFiles.find(f => `${f.name}_${f.size}_${f.lastModified}` === fileId)) {
+            alert(`File "${file.name}" is already selected for upload.`);
+            return;
+        }
+        
+        // Add file to upload queue
+        uploadedFiles.push(file);
     });
 
     updateUploadDisplay();
     updateScreenButton();
-    
-    // Call the mock API endpoint
-    callUploadAPI();
 }
 
 function updateUploadDisplay() {
-    let existingFilesContainer = uploadArea.querySelector('.uploaded-files');
-    
-    if (uploadedFiles.length === 0) {
-        if (existingFilesContainer) {
-            existingFilesContainer.remove();
-        }
-        uploadArea.querySelector('i').style.display = 'block';
-        uploadArea.querySelector('p').style.display = 'block';
-        uploadArea.querySelector('.supported-formats').style.display = 'block';
-        return;
-    }
-
-    // Hide upload prompt elements
-    uploadArea.querySelector('i').style.display = 'none';
-    uploadArea.querySelector('p').style.display = 'none';
-    uploadArea.querySelector('.supported-formats').style.display = 'none';
-
-    if (!existingFilesContainer) {
-        existingFilesContainer = document.createElement('div');
-        existingFilesContainer.className = 'uploaded-files';
-        uploadArea.appendChild(existingFilesContainer);
-    }
-
-    existingFilesContainer.innerHTML = uploadedFiles.map((file, index) => `
-        <div class="file-item">
-            <span><i class="fas fa-file-pdf"></i>${file.name}</span>
-        </div>
-    `).join('');
+    // Keep the upload area unchanged - don't modify the visual state
+    // The original drop zone interface remains visible at all times
+    return;
 }
 
 function removeFile(index) {
@@ -557,9 +550,16 @@ function callUploadAPI() {
     .then(response => response.json())
     .then(data => {
         displayAPIResponse(data);
-        // If successful, show the analysis results
+        // If successful, show the analysis results and mark files as processed
         if (data.status === 'success') {
             showAnalysisResults(data);
+            // Mark all uploaded files as processed
+            uploadedFiles.forEach(file => {
+                const fileId = `${file.name}_${file.size}_${file.lastModified}`;
+                processedFiles.add(fileId);
+            });
+            // Clear the upload queue since files have been processed
+            uploadedFiles = [];
         }
     })
     .catch(error => {
@@ -608,28 +608,21 @@ function showAnalysisResults(data) {
     const resultSection = document.getElementById('resultSection');
     const resultContent = resultSection.querySelector('.result-content');
     
-    console.log(data.match_score);
-    
     // Create the results display
     resultContent.innerHTML = `
         <div class="analysis-results">
-            <div class="result-header">
-                <h3>Resume Analysis Results</h3>
-                <div class="file-info">
-                    <i class="fas fa-file-pdf"></i>
-                    <span>${data.filename || 'Uploaded Resume'}</span>
-                </div>
-            </div>
-            
             <div class="match-score-section">
-                <div class="score-display">
-                    <div class="score-number">${data.match_score || 0}%</div>
-                    <div class="score-label">Match Score</div>
+                <div class="candidate-info">
+                    <div class="candidate-name">${data.candidate_name || 'Candidate'}</div>
+                    <div class="file-name">${data.filename || 'Uploaded Resume'}</div>
                 </div>
-                <div class="recommendation">
-                    <span class="recommendation-badge ${getRecommendationClass(data.recommendation)}">
-                        ${data.recommendation || 'Analysis Complete'}
-                    </span>
+                <div class="score-info">
+                    <div class="score-number ${getRecommendationClass(data.recommendation)}">${data.match_score || 0}%</div>
+                    <div class="recommendation">
+                        <span class="recommendation-badge ${getRecommendationClass(data.recommendation)}">
+                            ${data.recommendation || 'Analysis Complete'}
+                        </span>
+                    </div>
                 </div>
             </div>
             
