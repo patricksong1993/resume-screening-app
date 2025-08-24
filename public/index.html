@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="logo-ai">AI</div>
+                <span>Resume Screening</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Demo Section -->
+    <section class="demo-section-main">
+        <div class="container">
+            <div class="demo-layout">
+                <div class="demo-left">
+                    <div class="demo-container">
+                        <textarea placeholder="Paste your job description here..." class="job-input"></textarea>
+                    </div>
+                </div>
+                <div class="demo-right">
+                    <div class="demo-container">
+                        <div class="upload-area" id="uploadArea">
+                            <i class="fas fa-cloud-upload-alt"></i>
+                            <p>Drag & drop resumes here or <span class="upload-link">browse files</span></p>
+                            <input type="file" id="fileInput" multiple accept=".pdf,.doc,.docx" hidden>
+                            <div class="supported-formats">Only PDF supported</div>
+                        </div>
+                        
+                        <div class="result-section" id="resultSection">
+                            <div class="result-content">
+                                <div class="result-placeholder">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h3>Upload a resume to see results</h3>
+                                    <p>Your analysis will appear here after uploading a resume file</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Who is it for?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Recruiters</h3>
+                    <p>Automatically screen hundreds of resumes at once and focus on the most qualified candidates.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Hiring Managers</h3>
+                    <p>Find the best candidates quickly with AI-powered matching and objective scoring.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>HR Managers</h3>
+                    <p>Save time and money while improving the quality of your hiring process.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Resumes Processed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Jobs Processed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10hrs</div>
+                    <div class="stat-label">Saved Per Hire</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <h2>Benefits of AI Resume Screening</h2>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <i class="fas fa-clock"></i>
+                    <h4>Time Savings</h4>
+                    <p>Significantly reduce the time required to screen resumes</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-dollar-sign"></i>
+                    <h4>Cost Savings</h4>
+                    <p>Reduce costs associated with manual screening processes</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h4>Improved Accuracy</h4>
+                    <p>Better candidate evaluations and suitable candidate identification</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-balance-scale"></i>
+                    <h4>Enhanced Objectivity</h4>
+                    <p>Remove human bias for fair and objective evaluations</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-smile"></i>
+                    <h4>Better Experience</h4>
+                    <p>Improve candidate experience with faster feedback</p>
+                </div>
+                <div class="benefit-item">
+                    <i class="fas fa-medal"></i>
+                    <h4>Quality of Hire</h4>
+                    <p>Ensure the most suitable candidates are identified</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"It solves a real problem for remote companies. We receive 1000+ applicants for each position and it's impossible to review them all. With AI Resume Screening we can focus on the best candidates and save hours of our time."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>Yanislava Hristova</h4>
+                            <p>Founder and CEO at Remote IT World Recruitment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Hi, I'm the founder of AI Resume Screening. In the past I've built several job boards and found that screening applicants at scale has always been a challenge. I've built this app to help companies screen applicants faster."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4>App Founder</h4>
+                            <p>Founder at AI Resume Screening</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Is it secure?</h4>
+                    <p>We use end-to-end encryption while transferring your data and rely on secure payment processing.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What file formats do you support?</h4>
+                    <p>We support PDF, DOC, DOCX resume files. You can also upload a zip archive with multiple resume files.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I use this for free?</h4>
+                    <p>Yes, this is a demo application that you can use to test the resume screening functionality.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How is my data stored?</h4>
+                    <p>We don't sell your data. We only store resume fingerprints and parsed text for easy retrieval. All data can be deleted from Settings.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>How to screen resumes effectively?</h4>
+                    <p>Our AI tool evaluates resumes against job postings, ranking candidates by analyzing their backgrounds and skills alignment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="nav-brand">
+                        <div class="logo-ai">AI</div>
+                        <span>Resume Screening</span>
+                    </div>
+                    <p>AI-powered resume screening that helps you find the best candidates faster.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#features">Features</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#api">Resume Parser API</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#privacy">Privacy Policy</a>
+                        <a href="#terms">Terms & Conditions</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Resume Screening. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
