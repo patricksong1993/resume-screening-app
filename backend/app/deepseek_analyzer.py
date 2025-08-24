@@ -115,6 +115,9 @@ Be objective, thorough, and provide actionable insights.
             json=payload,
             timeout=30
         )
+
+        print(response)
+        print(response.status_code)
         
         if response.status_code != 200:
             raise Exception(f"DeepSeek API error: {response.status_code} - {response.text}")
