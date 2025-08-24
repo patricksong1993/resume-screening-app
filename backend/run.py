@@ -16,11 +16,7 @@ if __name__ == "__main__":
     print("\n" + "="*50)
     
 
-    # test the deepseek analyzer
-    job_description = "You are a software engineer with 5 years of experience in Python and Django."
-    resume_content = "I am a software engineer with 5 years of experience in Python and Django."
-    result = DeepSeekAnalyzer().analyze_resume_match(job_description, resume_content)
-    print(result)
+    # The backend now serves both the API and the frontend
 
     uvicorn.run(
         "app.main:app",

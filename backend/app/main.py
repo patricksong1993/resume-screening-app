@@ -23,7 +23,7 @@ async def read_root():
 # CORS middleware for frontend communication
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],
+    allow_origins=["http://localhost:8000", "http://127.0.0.1:8000", "http://localhost:3000", "http://127.0.0.1:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -33,11 +33,13 @@ app.add_middleware(
 static_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "public")
 app.mount("/static", StaticFiles(directory=static_path, html=True), name="static")
 
+
+
 @app.post("/api/upload-resume")
 async def upload_resume(
     file: UploadFile = File(...),
     job_description: str = Form(...),
-    mock: bool = Form(False)
+    mock: bool = Form(True)
 ):
     """
     Upload a resume file with job description for AI analysis
