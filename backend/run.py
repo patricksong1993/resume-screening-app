@@ -4,6 +4,7 @@ Startup script for the Resume Screening Backend
 """
 import uvicorn
 from app.main import app
+from app.deepseek_analyzer import DeepSeekAnalyzer
 
 if __name__ == "__main__":
     print("🚀 Starting Resume Screening Backend...")
@@ -14,6 +15,13 @@ if __name__ == "__main__":
     print("ℹ️  API info at: http://localhost:8000/api/info")
     print("\n" + "="*50)
     
+
+    # test the deepseek analyzer
+    job_description = "You are a software engineer with 5 years of experience in Python and Django."
+    resume_content = "I am a software engineer with 5 years of experience in Python and Django."
+    result = DeepSeekAnalyzer().analyze_resume_match(job_description, resume_content)
+    print(result)
+
     uvicorn.run(
         "app.main:app",
         host="0.0.0.0",
