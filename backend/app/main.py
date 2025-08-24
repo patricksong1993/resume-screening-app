@@ -6,7 +6,15 @@ from typing import Optional
 import os
 from .pdf_extractor import extract_text_from_pdf, validate_pdf_file
 from .deepseek_analyzer import analyze_resume_job_match
-import time
+from datetime import datetime
+import requests
+
+print(f"======= {datetime.now()} =======")
+response = requests.post("https://api.deepseek.com/chat/completions", json={"model": "deepseek-chat", "messages": [{"role": "user", "content": "Hello, how are you?"}]}, headers={"Authorization": f"Bearer sk-39d33f79efa643428aaec1f487e25546", "Content-Type": "application/json"})
+print(response.text)
+print(f"======= {datetime.now()} =======")
+
+
 app = FastAPI(
     title="Resume Screening API",
     description="AI-powered resume screening backend",
