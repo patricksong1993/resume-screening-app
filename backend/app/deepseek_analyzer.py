@@ -49,6 +49,7 @@ class DeepSeekAnalyzer:
             return self._parse_analysis_response(response)
             
         except Exception as e:
+            print(e)
             return {
                 "error": f"Analysis failed: {str(e)}",
                 "match_score": 0,

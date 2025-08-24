@@ -550,7 +550,7 @@ function callUploadAPI() {
     });
 
     // Call the FastAPI backend
-    fetch('http://localhost:8000/api/upload-resume', {
+    fetch('https://patricksong1993.pythonanywhere.com/api/upload-resume', {
         method: 'POST',
         body: formData
     })

@@ -13,18 +13,18 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Mock endpoint for file upload
-app.post('/api/upload-files', (req, res) => {
-  // Simulate processing delay
-  setTimeout(() => {
-    res.json({
-      message: "Files uploaded successfully!",
-      status: "success",
-      filesProcessed: req.body.files ? req.body.files.length : 0,
-      timestamp: new Date().toISOString()
-    });
-  }, 1000);
-});
+// // Mock endpoint for file upload
+// app.post('/api/upload-files', (req, res) => {
+//   // Simulate processing delay
+//   setTimeout(() => {
+//     res.json({
+//       message: "Files uploaded successfully!",
+//       status: "success",
+//       filesProcessed: req.body.files ? req.body.files.length : 0,
+//       timestamp: new Date().toISOString()
+//     });
+//   }, 1000);
+// });
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
