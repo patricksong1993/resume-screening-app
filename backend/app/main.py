@@ -63,12 +63,25 @@ def log_response_info(response):
     return response
 
 # CORS configuration for frontend communication
-CORS(app, origins=[
+# For production, you might want to be more specific about allowed origins
+
+# Get allowed origins from environment or use defaults
+allowed_origins = os.getenv('ALLOWED_ORIGINS', '').split(',') if os.getenv('ALLOWED_ORIGINS') else [
     "http://localhost:8000", 
     "http://127.0.0.1:8000", 
     "http://localhost:3000", 
     "http://127.0.0.1:3000"
-])
+]
+
+# Add your deployed frontend URL here
+# Example: "https://your-frontend-domain.com"
+# You can also set ALLOWED_ORIGINS environment variable
+
+CORS(app, 
+     origins=allowed_origins,
+     supports_credentials=True,
+     allow_headers=["Content-Type", "Authorization"],
+     methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
 # Configuration
 app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024  # 10MB limit

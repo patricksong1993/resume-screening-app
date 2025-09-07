@@ -1566,5 +1566,77 @@
     "recommendation": "Good Match",
     "processing_time": 10.851,
     "processing_time_ms": 10851.4
+  },
+  {
+    "id": "7c3aa173",
+    "timestamp": "2025-09-07T23:25:46.135052",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a strong technical background and relevant skills for a Software Engineer role, but the resume could be more tailored with specific project details and clearer alignment with the role's expectations.",
+    "strengths": [
+      "Experience at reputable companies (Stripe, Netflix)",
+      "Relevant technical stack including cloud computing, microservices, and containerization tools",
+      "Strong foundation in programming languages such as Java, Go, and C++",
+      "Familiarity with modern development practices"
+    ],
+    "improvement_areas": [
+      "Lack of specific software engineering responsibilities in the job titles",
+      "No detailed description of projects or systems built",
+      "Limited information on front-end or full-stack capabilities",
+      "No quantifiable achievements or metrics to demonstrate impact"
+    ],
+    "reasoning": "The candidate has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. He has relevant technical skills such as Kubernetes, Docker, Java, AWS, and Go, which align with the requirements of a Software Engineer role. However, the resume lacks specific details about the types of applications he developed, the size of the systems he worked on, or any direct mention of 'software engineer' roles beyond his Data Engineer position at Stripe. Additionally, there is no mention of front-end technologies (e.g., React, Angular) or other common software engineering responsibilities like code reviews, testing, or DevOps practices. The resume also lacks quantifiable achievements or project descriptions that would strengthen the match.",
+    "recommendation": "Good Match",
+    "processing_time": 4.615,
+    "processing_time_ms": 4615.2
+  },
+  {
+    "id": "2ef5f148",
+    "timestamp": "2025-09-07T23:25:48.164244",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 92,
+    "summary": "Baisheng Song is a highly qualified software engineer with significant experience in financial technology and high-performance systems. His technical expertise and industry background make him a strong fit for a software engineer role, though some additional details could enhance the match further.",
+    "strengths": [
+      "Extensive experience in building high-performance, low-latency systems in financial environments",
+      "Strong proficiency in Python, C++, and distributed systems",
+      "Proven track record in designing and implementing complex data pipelines and APIs",
+      "Experience working with quantitative researchers and traders, indicating cross-functional collaboration",
+      "Exposure to cloud computing (AWS/GCP) and DevOps practices (CI/CD, testing frameworks)"
+    ],
+    "improvement_areas": [
+      "Lack of explicit mention of soft skills or team leadership experience",
+      "No direct reference to modern web development frameworks or full-stack engineering experience",
+      "Limited information on open-source contributions or personal projects"
+    ],
+    "reasoning": "The candidate has an impressive 9+ years of experience as a Senior Software Engineer, with a strong focus on building high-performance systems in the financial sector. The resume highlights extensive experience in Python, C++, and distributed systems, which are highly relevant to a software engineer role. Key areas such as data integration, API development, CI/CD, and performance optimization align well with typical expectations for a software engineer position. The candidate has worked at top-tier firms like Bloomberg and BlackRock, which adds credibility. However, while the resume is very strong in technical and domain-specific skills, it lacks explicit mention of soft skills or team collaboration details that may be important for some roles. Additionally, there's no clear indication of experience with newer technologies or frameworks that might be relevant depending on the specific job requirements.",
+    "recommendation": "Strong Match",
+    "processing_time": 6.652,
+    "processing_time_ms": 6651.6
+  },
+  {
+    "id": "ae217021",
+    "timestamp": "2025-09-07T23:25:49.391056",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering expertise required for the role. A weak match due to significant mismatch in key skills and experience.",
+    "strengths": [
+      "Strong project management experience",
+      "Proven ability to deliver projects on time",
+      "Experience working with cross-functional teams",
+      "Leadership and communication skills"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages or software development experience",
+      "Incomplete or unclear resume structure",
+      "No specific mention of software-related achievements or education"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills, these are not sufficient to meet the core requirements of a software engineer position. The resume also appears to have formatting issues and may be incomplete or poorly structured.",
+    "recommendation": "Weak Match",
+    "processing_time": 7.871,
+    "processing_time_ms": 7870.9
   }
 ]
