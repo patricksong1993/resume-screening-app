@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "27e94eab",
+    "timestamp": "2025-09-05T11:12:30.166430",
+    "candidate_name": "Daniel Wilson",
+    "filename": "resume_7.pdf",
+    "match_score": 30,
+    "summary": "Daniel Wilson's resume is not aligned with the Software Engineer job description. His background as a Graphic Designer and lack of technical skills make him a poor fit for the role.",
+    "strengths": [
+      "Strong communication and collaboration skills",
+      "Experience working in cross-functional teams",
+      "Leadership and project management capabilities"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or coding projects",
+      "Resume does not reflect qualifications for a software engineering role"
+    ],
+    "reasoning": "The candidate's resume is for a Graphic Designer role, not a Software Engineer. The resume lacks any mention of software development experience, programming languages, or technical skills relevant to software engineering. While the candidate has strong communication, problem-solving, and leadership skills, these are general competencies that do not specifically align with the technical requirements of a software engineer position. The resume also does not include any projects, coding experience, or technical qualifications that would indicate suitability for the role.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.367,
+    "processing_time_ms": 3366.5
+  },
+  {
+    "id": "2d6a583f",
+    "timestamp": "2025-09-05T11:12:30.302592",
+    "candidate_name": "Maria Gonzalez",
+    "filename": "resume_2.pdf",
+    "match_score": 25,
+    "summary": "Maria Gonzalez's resume does not align with the requirements of a software engineer position. Her background in financial advising and lack of technical skills make her a poor fit for this role.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in a corporate environment (Tesla)",
+      "Ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software tools",
+      "Job title and industry do not match the role of a software engineer"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in financial advising, not software engineering. While she has experience working at Tesla and some general skills like communication, problem-solving, and leadership, there is no evidence of technical skills or experience relevant to software engineering roles. The resume lacks specific programming languages, development projects, or any mention of software development tools or methodologies. Additionally, her job title as a Financial Advisor does not align with the requirements of a software engineer position.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.503,
+    "processing_time_ms": 3503.5
+  },
+  {
+    "id": "54583dae",
+    "timestamp": "2025-09-05T11:12:30.487222",
+    "candidate_name": "Isabella Martinez",
+    "filename": "resume_10.pdf",
+    "match_score": 35,
+    "summary": "Isabella Martinez's resume shows no relevant experience or skills for a Software Engineer role. Her background in event coordination and lack of technical qualifications make her a poor fit for this position.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in a professional environment (JPMorgan)",
+      "Ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or programming experience",
+      "No mention of software development or computer science-related education",
+      "No specific examples of technical projects or achievements"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer. The resume highlights experience as an Event Coordinator at JPMorgan, which is unrelated to software engineering. There is no mention of technical skills such as programming languages, software development methodologies, or any relevant technical projects. While the candidate has some transferable skills like communication, problem-solving, and leadership, these are not sufficient to compensate for the lack of direct technical qualifications. The resume lacks specific details about coding experience, software tools, or any technical education beyond a Bachelor's degree, which is not explicitly stated to be in a relevant field.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.688,
+    "processing_time_ms": 3688.4
+  },
+  {
+    "id": "48266a73",
+    "timestamp": "2025-09-05T11:12:30.816917",
+    "candidate_name": "Olivia Taylor",
+    "filename": "resume_8.pdf",
+    "match_score": 35,
+    "summary": "Olivia Taylor has strong soft skills and project management experience but lacks the technical qualifications and software engineering expertise required for the role. She would need significant upskilling or relevant experience to be considered for a software engineer position.",
+    "strengths": [
+      "Strong communication and collaboration skills",
+      "Experience working in cross-functional teams",
+      "Proven ability to deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software engineering tools",
+      "No relevant coursework or certifications in computer science or software engineering"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in legal work as a Paralegal at Unilever, with experience in project delivery, cross-functional collaboration, and measurable results. However, the resume lacks any direct technical or software engineering-related experience, skills, or education. The job description for a Software Engineer would typically expect knowledge in programming languages, software development methodologies, system design, and possibly specific tools or frameworks. The candidate's skills listed (communication, problem-solving, leadership) are transferable but not directly aligned with the technical requirements of a software engineer role. The lack of relevant technical qualifications significantly reduces the match score.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.018,
+    "processing_time_ms": 4018.0
+  },
+  {
+    "id": "5dc01f99",
+    "timestamp": "2025-09-05T11:12:30.968798",
+    "candidate_name": "James Anderson",
+    "filename": "resume_9.pdf",
+    "match_score": 35,
+    "summary": "James Anderson's resume shows strong project management and leadership skills, but lacks the technical qualifications and experience required for a Software Engineer role. He would need significant upskilling or repositioning to be considered for this position.",
+    "strengths": [
+      "Strong leadership and project management experience",
+      "Proven ability to deliver projects on time",
+      "Collaboration with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills in software development or programming languages",
+      "No evidence of software engineering projects or responsibilities",
+      "No mention of relevant technical certifications or education in computer science"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer. The resume highlights experience as a Project Manager in the Construction industry, specifically at Siemens, with skills such as leadership, communication, and project delivery. However, there is no mention of technical skills related to software development, programming languages, or any software engineering experience. The resume lacks specific details about coding, system design, debugging, or any software-related projects. While the candidate has strong soft skills and project management experience, these are not directly relevant to the role of a Software Engineer, which typically requires technical expertise in software development.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.169,
+    "processing_time_ms": 4169.4
+  },
+  {
+    "id": "3f971075",
+    "timestamp": "2025-09-05T11:12:34.015302",
+    "candidate_name": "Emily Davis",
+    "filename": "resume_6.pdf",
+    "match_score": 25,
+    "summary": "Emily Davis has strong managerial and communication skills but lacks the technical background and software engineering experience required for the role. She would need significant upskilling or repositioning to be considered for a software engineer position.",
+    "strengths": [
+      "Strong leadership and management experience as a Sales Manager",
+      "Experience working in cross-functional teams",
+      "Achieved measurable results in previous roles"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software tools",
+      "No specific details about software engineering projects or responsibilities",
+      "No indication of computer science or engineering education"
+    ],
+    "reasoning": "The candidate's resume is not well aligned with the job description for a Software Engineer. The resume highlights experience as a Sales Manager at Amazon, with a focus on sales, project delivery, and cross-functional collaboration. However, there is no mention of technical skills, programming languages, software development experience, or any relevant engineering qualifications. The resume lacks specific details about coding, algorithms, system design, or any software-related projects, which are typically expected for a software engineer role. The education section mentions a Bachelor's degree from Harvard University, but it is not specified whether it is in a relevant field such as Computer Science or Engineering.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.843,
+    "processing_time_ms": 3843.4
+  },
+  {
+    "id": "0496d425",
+    "timestamp": "2025-09-05T11:12:34.363727",
+    "candidate_name": "Sophia Lee",
+    "filename": "resume_4.pdf",
+    "match_score": 25,
+    "summary": "Sophia Lee's resume indicates a background in education and general teamwork skills, but there is no evidence of technical expertise or experience in software engineering. This makes her a poor match for the Software Engineer role as described.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in cross-functional teams",
+      "Ability to deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software tools",
+      "Resume does not align with the technical requirements of a Software Engineer role"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in education, specifically as a High School Teacher, with experience at Siemens. However, the resume lacks any direct software engineering experience or technical skills relevant to the role. The job description for a Software Engineer would typically require programming languages, software development methodologies, system design, and other technical competencies. While the resume mentions 'industry-relevant skills' and 'problem-solving,' these are too vague and not aligned with the specific requirements of a software engineering position. The candidate's experience and skills do not demonstrate a clear fit for the role.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.872,
+    "processing_time_ms": 3871.8
+  },
+  {
+    "id": "0938a916",
+    "timestamp": "2025-09-05T11:12:34.807054",
+    "candidate_name": "David Smith",
+    "filename": "resume_3.pdf",
+    "match_score": 30,
+    "summary": "David Smith's resume shows no direct alignment with the Software Engineer role. His background in medical technology and lack of technical skills make him a poor fit for the position.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills and experience in software development",
+      "No mention of relevant education or certifications in computer science or software engineering",
+      "No specific projects or technologies related to software engineering"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer. The resume highlights experience as a Medical Technologist at HSBC, which is unrelated to software engineering. The education listed is a Bachelor's degree from the University of Toronto, but it is not specified whether this is in a relevant field such as Computer Science or Software Engineering. The skills mentioned are generic (communication, problem-solving, leadership), which are valuable but not specific to software development. There is no mention of programming languages, software development methodologies, or technical projects that would indicate expertise in software engineering. Therefore, the candidate lacks the necessary technical qualifications and experience required for the role.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.985,
+    "processing_time_ms": 3984.5
+  },
+  {
+    "id": "399c9734",
+    "timestamp": "2025-09-05T11:12:35.177379",
+    "candidate_name": "Michael Brown",
+    "filename": "resume_5.pdf",
+    "match_score": 35,
+    "summary": "Michael Brown's resume shows strong soft skills and experience in digital marketing, but it lacks the technical qualifications and experience required for a software engineer role. He would need significant upskilling or relevant work experience to be considered for this position.",
+    "strengths": [
+      "Strong communication and collaboration skills",
+      "Experience working in cross-functional teams",
+      "Leadership and project management capabilities"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software tools",
+      "No relevant coursework or certifications in computer science or software engineering"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer. The role of a Digital Marketing Specialist at Tesla is unrelated to software engineering, and there is no mention of technical skills, programming languages, or software development experience. While the candidate has leadership, communication, and problem-solving skills, these are general competencies that do not specifically meet the technical requirements of a software engineer position. The resume lacks any relevant coursework, certifications, or projects in software development, which further reduces the match score.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.87,
+    "processing_time_ms": 4870.5
+  },
+  {
+    "id": "b1f5815d",
+    "timestamp": "2025-09-05T11:12:35.402098",
+    "candidate_name": "Alex Johnson",
+    "filename": "resume_1.pdf",
+    "match_score": 65,
+    "summary": "Alex Johnson has a solid foundation in software engineering with relevant experience, but the resume lacks depth in technical details and specific accomplishments. Further refinement would improve the match with a Software Engineer role.",
+    "strengths": [
+      "Relevant work experience as a Backend Engineer",
+      "Educational background from a recognized university",
+      "Demonstrated teamwork and leadership skills"
+    ],
+    "improvement_areas": [
+      "Lack of specific technical skills and tools used in backend development",
+      "Vague or generic descriptions of achievements",
+      "No mention of software development methodologies (e.g., Agile, DevOps)",
+      "No detailed project examples or measurable outcomes"
+    ],
+    "reasoning": "The candidate has a relevant educational background from a reputable institution and experience as a Backend Engineer, which aligns with the job description for a Software Engineer. However, the resume lacks specific details about the technologies used, programming languages, or project specifics that would demonstrate deeper technical expertise. The key achievements are vague and do not provide measurable impact or context. While the candidate mentions collaboration and leadership, these are general terms without concrete examples. The resume does not include any information about software development methodologies, tools, or frameworks commonly expected in a Software Engineer role.",
+    "recommendation": "Moderate Match",
+    "processing_time": 4.429,
+    "processing_time_ms": 4429.3
+  },
+  {
+    "id": "591f4c0b",
+    "timestamp": "2025-09-05T11:13:14.338109",
+    "candidate_name": "Emily Taylor",
+    "filename": "resume_7.pdf",
+    "match_score": 85,
+    "summary": "Emily Taylor is a strong candidate for a Software Engineer role, with relevant experience and technical skills. While her resume is solid, it could benefit from more detailed project descriptions and clearer alignment with specific job requirements.",
+    "strengths": [
+      "Experience at top-tier tech companies (Airbnb, Apple, Stripe)",
+      "Strong backend development and data pipeline experience",
+      "Proficient in cloud computing (AWS) and modern web technologies (JavaScript, TypeScript, React)",
+      "Knowledge of multiple programming languages (C++, Go, JavaScript, TypeScript)"
+    ],
+    "improvement_areas": [
+      "Lack of explicit mention of front-end or full-stack development experience",
+      "No specific details about projects or contributions beyond general responsibilities",
+      "No mention of soft skills or team leadership, which may be important for senior roles"
+    ],
+    "reasoning": "Emily Taylor has a strong background in software engineering, with experience at well-known companies like Airbnb, Apple, and Stripe. She has worked as a Backend Engineer and Data Engineer, which aligns closely with the role of a Software Engineer. Her skills include cloud computing (AWS), modern web technologies (JavaScript, TypeScript, React), and backend development, all of which are relevant to the job description. However, the job description is quite generic and does not specify particular technologies or industries, which limits the depth of the match. Additionally, while she has experience in backend development, there is no explicit mention of front-end or full-stack capabilities, which could be a consideration depending on the specific role requirements.",
+    "recommendation": "Good Match",
+    "processing_time": 4.491,
+    "processing_time_ms": 4490.8
+  },
+  {
+    "id": "563bcf30",
+    "timestamp": "2025-09-05T11:13:14.459804",
+    "candidate_name": "Alice Brown",
+    "filename": "resume_10.pdf",
+    "match_score": 75,
+    "summary": "Alice Brown is a qualified Software Engineer with experience across multiple tech giants and a strong foundation in cloud and web technologies. While she meets the general requirements for the role, additional details about her contributions and specific technical focus would enhance her fit for more specialized positions.",
+    "strengths": [
+      "Experience at top-tier tech companies (Apple, Google, Airbnb)",
+      "Strong technical skill set including cloud computing, microservices, and API development",
+      "Relevant experience in backend and full-stack development",
+      "Familiarity with modern web technologies and frameworks"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No clear indication of domain-specific expertise (e.g., frontend, mobile, AI/ML)",
+      "Limited information on soft skills or team leadership",
+      "Generic job titles without detailed responsibilities"
+    ],
+    "reasoning": "Alice Brown has a solid background in software engineering roles at well-known companies such as Apple, Google, and Airbnb. She has experience with backend development, real-time platforms, and web applications, which aligns with the general requirements of a Software Engineer position. Her technical skills include Kubernetes, REST APIs, GraphQL, Microservices, JavaScript, Java, AWS, and Node.js—many of which are relevant to modern software engineering roles. However, the job description is very generic, and there is no specific mention of required technologies or domain expertise (e.g., frontend, mobile, data science, etc.). Additionally, her resume lacks detailed project descriptions, quantifiable achievements, and any mention of soft skills or leadership experience that could strengthen her profile for a more specialized role.",
+    "recommendation": "Good Match",
+    "processing_time": 4.614,
+    "processing_time_ms": 4614.5
+  },
+  {
+    "id": "3ba9c56c",
+    "timestamp": "2025-09-05T11:13:14.506054",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 78,
+    "summary": "Alice Lee is a qualified software engineer with experience in building scalable applications and working with modern technologies. While her resume shows strong technical capabilities, it could benefit from more detailed project descriptions and measurable outcomes to better align with specific job requirements.",
+    "strengths": [
+      "Experience at top-tier tech companies (Bloomberg, Apple, Airbnb)",
+      "Strong technical skills in cloud computing, microservices, and modern web technologies",
+      "Relevant experience in developing and maintaining scalable applications",
+      "Proficiency in multiple programming languages and frameworks (e.g., TypeScript, React, SQL)"
+    ],
+    "improvement_areas": [
+      "Lack of specific project or outcome-based details in the resume",
+      "No mention of soft skills or leadership experience, which may be important for senior roles",
+      "Resume does not highlight any open-source contributions or personal projects that could demonstrate passion or initiative"
+    ],
+    "reasoning": "Alice Lee has a strong background in software engineering with experience at well-known companies like Bloomberg, Apple, and Airbnb. She has worked on real-time systems and data pipelines, which aligns with the general requirements of a software engineer role. Her technical skills include cloud computing (AWS), microservices, React, and TypeScript, which are relevant to many software engineering positions. However, the job description is very generic and does not specify a particular domain or technology stack, which limits the ability to assess a perfect match. Additionally, her resume lacks specific details about the scope of her work, such as project sizes, team sizes, or measurable outcomes, which could strengthen the match further.",
+    "recommendation": "Good Match",
+    "processing_time": 4.661,
+    "processing_time_ms": 4660.8
+  },
+  {
+    "id": "59232593",
+    "timestamp": "2025-09-05T11:13:14.931464",
+    "candidate_name": "David Lee",
+    "filename": "resume_6.pdf",
+    "match_score": 75,
+    "summary": "David Lee has a strong foundation in software engineering and relevant technical skills, making him a good fit for a Software Engineer role. However, additional details about specific software development projects and methodologies would improve the match.",
+    "strengths": [
+      "Experience working in tech companies (Airbnb, Amazon)",
+      "Relevant technical skills including Node.js, Python, GraphQL, and REST APIs",
+      "Familiarity with cloud computing and containerization tools (Kubernetes, Docker)",
+      "Strong educational background in Computer Science"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "Limited mention of software engineering-specific frameworks or methodologies (e.g., Agile, SDLC)",
+      "No clear indication of software design, testing, or deployment responsibilities beyond data engineering roles",
+      "Resume could include more information about collaboration, leadership, or problem-solving in software development contexts"
+    ],
+    "reasoning": "David Lee has a solid background in software engineering, with experience as a Data Engineer at Airbnb and Amazon. His resume highlights skills in modern web technologies such as Node.js, Python, GraphQL, and REST APIs, which are relevant to a Software Engineer role. He also has experience with cloud computing tools like Kubernetes and Docker, which aligns with many software engineering positions. However, the job description for 'Software Engineer' is broad and may require more specific technical depth or project-based experience that isn't clearly detailed in his resume. Additionally, while he has worked on real-time platforms and web applications, there's no explicit mention of software development lifecycle (SDLC) involvement, agile methodologies, or specific software engineering frameworks like React, Angular, or Java, which could be expected depending on the company's stack. The resume lacks details about specific projects, contributions, or measurable outcomes, which would strengthen the match.",
+    "recommendation": "Good Match",
+    "processing_time": 5.085,
+    "processing_time_ms": 5085.0
+  },
+  {
+    "id": "cef33018",
+    "timestamp": "2025-09-05T11:13:15.137240",
+    "candidate_name": "John Lee",
+    "filename": "resume_9.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a solid foundation in software engineering and possesses many of the required technical skills. While his experience and resume could be more aligned with the typical responsibilities of a Software Engineer, he still presents a good fit for the role with some additional clarification or context.",
+    "strengths": [
+      "Relevant technical skills including JavaScript, Python, Go, AWS, REST APIs, and GraphQL",
+      "Experience in developing and maintaining web applications and backend services",
+      "Strong educational background from Stanford University in Computer Science",
+      "Proven ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project descriptions or measurable outcomes",
+      "Title of 'Data Engineer' may not fully align with the expectations of a 'Software Engineer' role",
+      "Limited information on full-stack capabilities or system architecture experience",
+      "No mention of agile methodologies, version control (e.g., Git), or DevOps practices"
+    ],
+    "reasoning": "The candidate has a strong background in software engineering, with experience in developing web applications and backend services. He has relevant technical skills such as JavaScript, Python, Go, AWS, REST APIs, and GraphQL, which align well with the requirements of a Software Engineer role. However, the resume lacks specific details about the scope of his work, such as the size of the teams he worked with, the complexity of the systems he built, or any measurable outcomes from his projects. Additionally, the job description for 'software engineer' may expect more emphasis on full-stack development, system architecture, or collaboration with product teams, which are not clearly highlighted in the resume. The title 'Data Engineer' in previous roles also suggests a potential mismatch in the type of work performed compared to what is typically expected of a Software Engineer.",
+    "recommendation": "Good Match",
+    "processing_time": 5.292,
+    "processing_time_ms": 5291.6
+  },
+  {
+    "id": "1049887b",
+    "timestamp": "2025-09-05T11:13:18.778633",
+    "candidate_name": "Olivia Johnson",
+    "filename": "resume_5.pdf",
+    "match_score": 85,
+    "summary": "Olivia Johnson has a solid background in software engineering with relevant technical skills and experience. While she meets most requirements for a Software Engineer role, additional details about her contributions and impact would strengthen her candidacy.",
+    "strengths": [
+      "Relevant experience in software development at a reputable company (Bloomberg)",
+      "Strong technical skills in modern web technologies (Node.js, React, REST APIs)",
+      "Experience with cloud computing and containerization (Docker, Kubernetes)",
+      "Background in full-stack development"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No mention of soft skills or team collaboration beyond 'collaborated with cross-functional teams'",
+      "Limited information on the scope of her responsibilities or the scale of systems she worked on"
+    ],
+    "reasoning": "Olivia Johnson has a strong match for the Software Engineer role. She has relevant experience as a Software Engineer and Full Stack Developer at Bloomberg, where she worked on cloud-based applications and real-time trading platforms. Her skills include C++, Node.js, Docker, Kubernetes, React, and REST APIs, which are all relevant to modern software engineering roles. However, the job description is not explicitly provided, so the analysis is based on general expectations for a Software Engineer position. The resume lacks specific details about the types of projects she worked on, the size of the teams, or the impact of her work, which could have strengthened the match further.",
+    "recommendation": "Good Match",
+    "processing_time": 4.422,
+    "processing_time_ms": 4421.9
+  },
+  {
+    "id": "9fbd8ba4",
+    "timestamp": "2025-09-05T11:13:19.382969",
+    "candidate_name": "Emily Miller",
+    "filename": "resume_4.pdf",
+    "match_score": 85,
+    "summary": "Emily Miller has a solid technical foundation and relevant experience in software engineering, particularly in backend and cloud-based systems. While she meets most of the key qualifications, additional details would strengthen her candidacy for a Software Engineer role.",
+    "strengths": [
+      "Experienced in backend development and system performance optimization",
+      "Proficient in cloud computing (AWS) and containerization (Docker, Kubernetes)",
+      "Skilled in microservices architecture",
+      "Strong technical stack including Java, Python, and SQL"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project descriptions or measurable outcomes",
+      "No explicit mention of front-end or full-stack development experience",
+      "Limited information on team size, project scale, or collaboration depth"
+    ],
+    "reasoning": "Emily Miller has a strong background in software engineering, with relevant experience at Apple and Bloomberg. She has worked on backend systems and real-time platforms, which aligns well with the role of a Software Engineer. Her technical skills include Java, Python, SQL, Docker, AWS, Microservices, and Kubernetes—key technologies often required for software engineering positions. However, the resume lacks specific details about the scope of her work, such as the size of the teams she worked with, the scale of the applications she developed, or any specific projects that demonstrate her ability to deliver end-to-end solutions. Additionally, there is no mention of front-end development or full-stack capabilities, which may be important depending on the job's requirements.",
+    "recommendation": "Good Match",
+    "processing_time": 4.918,
+    "processing_time_ms": 4918.4
+  },
+  {
+    "id": "f3cc6c20",
+    "timestamp": "2025-09-05T11:13:19.635204",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a strong technical foundation and relevant experience that aligns with the Software Engineer role. While the resume could be more detailed and tailored to the position, the candidate shows potential and meets many of the key requirements.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Netflix)",
+      "Relevant technical stack including cloud computing, microservices, and containerization tools",
+      "Strong programming languages (Java, C++, Go, Node.js)",
+      "Familiarity with DevOps tools (Kubernetes, Docker)"
+    ],
+    "improvement_areas": [
+      "More detailed description of projects and responsibilities in previous roles",
+      "Clarification of the distinction between Data Engineer and Software Engineer roles",
+      "Inclusion of specific software development methodologies (e.g., Agile, Scrum)",
+      "Highlighting web development experience if applicable"
+    ],
+    "reasoning": "The candidate has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. He has relevant technical skills such as Kubernetes, Node.js, Docker, Microservices, Java, AWS, C++, and Go, which align well with the requirements of a Software Engineer role. However, the resume lacks specific details about the types of applications he developed, the size or complexity of the systems he worked on, and any direct mention of 'software engineer' in his job titles (he was listed as a Data Engineer and Senior Software Engineer). Additionally, there is no mention of soft skills, project management, or collaboration with product teams, which are often important for software engineers. The resume also lacks a clear focus on web technologies beyond what's listed in the skills section.",
+    "recommendation": "Good Match",
+    "processing_time": 4.491,
+    "processing_time_ms": 4491.5
+  },
+  {
+    "id": "758fa9c3",
+    "timestamp": "2025-09-05T11:13:19.865069",
+    "candidate_name": "Alice Smith",
+    "filename": "resume_2.pdf",
+    "match_score": 75,
+    "summary": "Alice Smith has a strong foundation in software engineering with relevant experience and technical skills. While she meets the basic qualifications for a Software Engineer role, additional details on her contributions and specialized expertise would enhance her fit for more specific or advanced positions.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Airbnb, Apple)",
+      "Relevant technical skills including cloud computing (AWS), backend development, and modern web technologies (React, Node.js)",
+      "Strong understanding of collaboration and system performance improvements"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No clear indication of soft skills or leadership experience",
+      "Limited information on specialized areas like software architecture or DevOps"
+    ],
+    "reasoning": "Alice Smith has a solid background as a Software Engineer with experience at well-known companies like Stripe, Airbnb, and Apple. She has worked on backend services, cloud-based applications, and real-time trading platforms, which aligns with the general requirements of a Software Engineer role. Her technical skills include SQL, C++, React, REST APIs, Docker, AWS, Node.js, and Java—many of which are relevant to software engineering positions. However, the job description is very generic, and there is no specific mention of required technologies or project details. The resume lacks depth in terms of specific achievements, measurable outcomes, or detailed project descriptions that could strengthen the match further. Additionally, the resume does not highlight any particular expertise in areas such as software architecture, DevOps, or agile methodologies, which may be expected in more advanced roles.",
+    "recommendation": "Good Match",
+    "processing_time": 4.926,
+    "processing_time_ms": 4925.9
+  },
+  {
+    "id": "bdb222d9",
+    "timestamp": "2025-09-05T11:13:20.080177",
+    "candidate_name": "Olivia Miller",
+    "filename": "resume_3.pdf",
+    "match_score": 85,
+    "summary": "Olivia Miller has a solid technical foundation and relevant experience that aligns well with a Software Engineer role. While she has the necessary skills, additional details on her contributions and methodologies would strengthen her candidacy.",
+    "strengths": [
+      "Strong technical skill set including cloud computing, microservices, and modern web technologies.",
+      "Experience working at top-tier tech companies (Google and Apple).",
+      "Relevant skills such as Go, TypeScript, React, and Docker are highly applicable to a Software Engineer role.",
+      "Professional summary clearly states expertise in designing and deploying scalable applications."
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes from previous roles.",
+      "No explicit mention of software engineering best practices, such as version control, CI/CD, or testing frameworks.",
+      "Limited information on soft skills or team collaboration experiences.",
+      "No indication of familiarity with specific software engineering methodologies (e.g., Agile, Scrum)."
+    ],
+    "reasoning": "Olivia Miller has a strong background in software engineering, with experience as a Full Stack Developer at Google and a Data Engineer at Apple. She has relevant technical skills such as GraphQL, Go, REST APIs, Docker, TypeScript, React, Kubernetes, and Machine Learning, which align well with the requirements of a Software Engineer role. Her professional summary highlights her ability to design, develop, and deploy scalable applications, which is a key requirement for the position. However, the resume lacks specific details about the scope of her work, measurable outcomes, or any mention of software engineering-specific projects that could further strengthen the match. Additionally, there is no mention of soft skills or team leadership, which are often important in software engineering roles.",
+    "recommendation": "Good Match",
+    "processing_time": 5.57,
+    "processing_time_ms": 5570.2
+  },
+  {
+    "id": "34b11e14",
+    "timestamp": "2025-09-07T23:03:39.797872",
+    "candidate_name": "Alice Brown",
+    "filename": "resume_10.pdf",
+    "match_score": 75,
+    "summary": "Alice Brown has strong technical skills and experience in software development, making her a good fit for a software engineer role at a financial software company. However, additional focus on financial domain expertise would improve her alignment with the job description.",
+    "strengths": [
+      "Experience working at top-tier tech companies (Apple, Google, Airbnb)",
+      "Strong technical skills in cloud computing (AWS), microservices, and modern web technologies",
+      "Background in developing scalable and high-performance systems",
+      "Familiarity with real-time platform development"
+    ],
+    "improvement_areas": [
+      "Lack of explicit experience in financial software or fintech domains",
+      "No specific mention of financial systems, compliance, or regulatory tools",
+      "Limited detail on the impact of her work or measurable outcomes",
+      "Fewer keywords related to financial software development (e.g., trading algorithms, risk management, etc.)"
+    ],
+    "reasoning": "Alice Brown has a solid background in software engineering with experience at well-known tech companies like Apple, Google, and Airbnb. She has worked on backend systems, real-time trading platforms, and web applications, which aligns with the general requirements of a software engineer role at a financial software company. Her technical skills include cloud computing (AWS), microservices, REST APIs, and JavaScript/Java, which are relevant to the role. However, there is limited specific mention of financial software experience or domain knowledge, such as fintech, financial systems, or compliance-related technologies. Additionally, her resume lacks details about project outcomes, metrics, or specific tools used in financial software development, which could strengthen her match for this particular role.",
+    "recommendation": "Good Match",
+    "processing_time": 7.792,
+    "processing_time_ms": 7792.1
+  },
+  {
+    "id": "f046366e",
+    "timestamp": "2025-09-07T23:03:40.049600",
+    "candidate_name": "John Lee",
+    "filename": "resume_9.pdf",
+    "match_score": 75,
+    "summary": "John Lee has strong technical skills and experience in software development, making him a good fit for a software engineer role. However, additional focus on financial software experience and domain-specific knowledge would improve his alignment with the job description.",
+    "strengths": [
+      "Experience in developing and maintaining web applications and backend services",
+      "Proficient in cloud computing (AWS) and modern web technologies (JavaScript, Node.js, Python)",
+      "Strong technical skills including REST APIs, Go, and GraphQL",
+      "Educated from a top-tier institution (Stanford University)"
+    ],
+    "improvement_areas": [
+      "Lack of specific experience in financial software or financial systems",
+      "No mention of domain knowledge related to finance, such as trading platforms, risk management, or compliance",
+      "Professional summary could be more tailored to the financial software industry",
+      "Limited detail on projects or contributions that directly relate to financial applications"
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience in developing web applications and backend services. His skills in cloud computing (AWS), modern web technologies (JavaScript, Node.js, Python), and REST APIs align well with the requirements of a software engineer role at a financial software company. However, the resume lacks specific mention of financial software experience, domain knowledge, or exposure to financial systems, which are often critical for this type of role. Additionally, his professional summary is generic and could be more tailored to highlight relevant experience in the financial sector. The job description likely expects familiarity with financial data processing, compliance, or industry-specific tools, which are not clearly demonstrated here.",
+    "recommendation": "Good Match",
+    "processing_time": 8.054,
+    "processing_time_ms": 8054.0
+  },
+  {
+    "id": "3e0d9672",
+    "timestamp": "2025-09-07T23:03:40.226025",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 75,
+    "summary": "Alice Lee is a strong software engineer with relevant technical skills and experience at leading companies. While she lacks direct experience in financial software, her background in scalable systems and cloud technologies makes her a good fit for further evaluation. Additional information about her experience in financial domains would strengthen her candidacy.",
+    "strengths": [
+      "Experience at top-tier tech companies (Bloomberg, Apple, Airbnb)",
+      "Strong technical skills in cloud computing, microservices, and modern web frameworks",
+      "Proven ability to work in cross-functional teams and deliver performance improvements",
+      "Relevant education from Stanford University in Computer Science"
+    ],
+    "improvement_areas": [
+      "Lack of explicit experience in financial software or domain-specific knowledge",
+      "No mention of projects or responsibilities related to financial systems or tools",
+      "Limited detail on how her previous roles may have contributed to financial software development"
+    ],
+    "reasoning": "Alice Lee has a strong background in software engineering with experience at well-known companies such as Bloomberg, Apple, and Airbnb. She has worked on real-time systems and data pipelines, which are relevant to financial software development. Her technical skills include cloud computing (AWS), microservices, and modern web technologies like React and TypeScript, all of which align with the requirements of a software engineer role at a financial software company. However, her resume does not explicitly mention any experience in financial software or domain-specific knowledge such as stock trading systems, risk modeling, or compliance tools, which are often important in this industry. Additionally, there is no mention of any projects or responsibilities directly related to financial applications, which could be a gap for this specific role.",
+    "recommendation": "Good Match",
+    "processing_time": 8.216,
+    "processing_time_ms": 8215.8
+  },
+  {
+    "id": "4508f3ba",
+    "timestamp": "2025-09-07T23:03:40.322091",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 92,
+    "summary": "Baisheng Song is a highly qualified software engineer with deep experience in financial software development, particularly in trading systems, risk modeling, and data platforms. His technical skills and professional background strongly align with the needs of a financial software company, making him a top candidate for the role.",
+    "strengths": [
+      "Extensive experience in building high-performance trading systems and risk modeling frameworks.",
+      "Strong technical background in Python, C++, and distributed systems, which are core to financial software development.",
+      "Proven ability to collaborate with quantitative researchers and traders, ensuring code meets compliance and risk standards.",
+      "Experience with real-time data processing, APIs, and CI/CD pipelines, which are essential in financial tech environments.",
+      "Demonstrated leadership in delivering scalable and robust financial software solutions."
+    ],
+    "improvement_areas": [
+      "Limited explicit mention of cloud infrastructure (AWS/GCP) beyond general references.",
+      "Fewer details on specific financial domain tools (e.g., Bloomberg Terminal, FIX, or market data protocols).",
+      "Less emphasis on soft skills such as team leadership or cross-functional collaboration, though some is implied."
+    ],
+    "reasoning": "The candidate has an impressive 9+ years of experience in financial software development, with a strong focus on trading systems, risk modeling, and data platforms. Their work at Bloomberg and OakNorth aligns closely with the requirements of a software engineer role in a financial software company. They have extensive experience with Python, C++, distributed systems, and APIs—key technologies often used in financial tech. The resume also highlights expertise in time series analysis, compliance, and performance optimization, which are critical for this role. However, there is limited mention of specific cloud infrastructure (e.g., AWS/GCP) or financial domain-specific tools like Bloomberg Terminal or FIX protocol, which could be important depending on the exact job requirements.",
+    "recommendation": "Strong Match",
+    "processing_time": 8.311,
+    "processing_time_ms": 8311.3
+  },
+  {
+    "id": "28e91cdf",
+    "timestamp": "2025-09-07T23:03:40.592542",
+    "candidate_name": "Emily Taylor",
+    "filename": "resume_7.pdf",
+    "match_score": 75,
+    "summary": "Emily Taylor has a solid technical foundation and relevant experience in backend development and cloud infrastructure, making her a good fit for a software engineer role at a financial software company. However, additional clarification on her experience with financial systems would strengthen her candidacy.",
+    "strengths": [
+      "Experience at top-tier tech companies (Airbnb, Apple, Stripe)",
+      "Strong backend development and system design skills",
+      "Proficiency in cloud computing (AWS) and modern web technologies",
+      "Knowledge of multiple programming languages including Go and C++"
+    ],
+    "improvement_areas": [
+      "Lack of direct experience in financial software or fintech domains",
+      "No specific mention of financial systems, trading platforms, or compliance-related work",
+      "Limited detail on how her previous roles contributed to financial or business outcomes"
+    ],
+    "reasoning": "Emily Taylor has a strong technical background in software engineering, with experience at well-known tech companies such as Airbnb, Apple, and Stripe. She has worked on backend systems, data pipelines, and real-time trading platforms, which aligns with the general requirements of a software engineer role at a financial software company. Her skills in cloud computing (AWS), modern web technologies (JavaScript, TypeScript, React), and programming languages (Go, C++) are relevant to the position. However, there is limited explicit mention of financial software experience or domain-specific knowledge (e.g., financial systems, trading algorithms, compliance, or fintech tools). Additionally, her resume lacks specific details about projects or outcomes that directly relate to financial applications, which could be important for a financial software company.",
+    "recommendation": "Good Match",
+    "processing_time": 8.583,
+    "processing_time_ms": 8582.7
+  },
+  {
+    "id": "3a3f8b54",
+    "timestamp": "2025-09-07T23:03:44.699228",
+    "candidate_name": "Olivia Miller",
+    "filename": "resume_3.pdf",
+    "match_score": 78,
+    "summary": "Olivia Miller has a solid technical foundation and experience that aligns well with the general requirements of a Software Engineer role. While she lacks direct financial software experience, her skills and background make her a strong candidate who could be a good fit with additional focus on financial domain knowledge.",
+    "strengths": [
+      "Experience at top-tier tech companies (Google, Apple)",
+      "Relevant technical skills: GraphQL, Go, REST APIs, Docker, TypeScript, React, Kubernetes",
+      "Background in developing scalable and real-time applications",
+      "Strong understanding of cloud computing and microservices"
+    ],
+    "improvement_areas": [
+      "Lack of specific financial software experience or domain knowledge",
+      "No mention of financial data processing, trading systems, or related protocols (e.g., FIX, Bloomberg)",
+      "No indication of financial industry certifications or relevant projects"
+    ],
+    "reasoning": "Olivia Miller has a strong background in software development, with experience at top tech companies like Google and Apple. She has relevant skills in cloud computing, microservices, and modern web technologies, which align well with the requirements of a Software Engineer role at a financial software company. Her experience in developing real-time trading platforms and cloud-based applications is particularly relevant to the financial sector. However, the resume lacks specific mention of financial software experience, domain knowledge, or tools commonly used in financial systems (e.g., Bloomberg, FIX protocol, or financial data processing). Additionally, there is no mention of any certifications or projects directly related to financial technology, which could have strengthened her profile for this specific role.",
+    "recommendation": "Good Match",
+    "processing_time": 4.372,
+    "processing_time_ms": 4371.9
+  },
+  {
+    "id": "445c2550",
+    "timestamp": "2025-09-07T23:03:44.742306",
+    "candidate_name": "David Lee",
+    "filename": "resume_6.pdf",
+    "match_score": 75,
+    "summary": "David Lee is a qualified software engineer with strong technical skills and experience in cloud and web development. While he lacks direct experience in financial software, his background makes him a good candidate for further evaluation, especially if he has interest or additional experience in fintech.",
+    "strengths": [
+      "Strong technical skills in modern web technologies (Node.js, Python, REST APIs)",
+      "Experience with cloud infrastructure (Kubernetes, Docker)",
+      "Proven ability to work in cross-functional teams",
+      "Education from a top-tier university (Carnegie Mellon)"
+    ],
+    "improvement_areas": [
+      "Lack of specific experience in financial software or fintech domains",
+      "No mention of financial systems, compliance, or regulatory tools",
+      "Limited detail on how past projects relate to financial applications"
+    ],
+    "reasoning": "David Lee has a solid background in software engineering, with experience in developing web applications and working with cloud technologies. His resume highlights skills in Node.js, Python, Kubernetes, Docker, and REST APIs, which are relevant to a software engineer role at a financial software company. However, the job description likely expects more specific experience in financial software, such as working with financial data systems, compliance tools, or domain-specific knowledge like trading platforms, risk management, or fintech frameworks. While he has worked at companies like Airbnb and Amazon, his roles were more focused on general data engineering and web application development rather than financial software specifically. This lack of direct financial software experience reduces the match score.",
+    "recommendation": "Good Match",
+    "processing_time": 4.937,
+    "processing_time_ms": 4937.0
+  },
+  {
+    "id": "b9d2d5c7",
+    "timestamp": "2025-09-07T23:03:44.994663",
+    "candidate_name": "Olivia Johnson",
+    "filename": "resume_5.pdf",
+    "match_score": 85,
+    "summary": "Olivia Johnson is a strong candidate with solid technical skills and relevant experience at a financial tech company. While she lacks explicit financial domain knowledge, her technical background makes her a good fit for the role, and she would likely benefit from further training or exposure to financial software systems.",
+    "strengths": [
+      "Experience at Bloomberg, a leading financial software company",
+      "Strong technical skills in cloud computing, microservices, and web technologies",
+      "Full stack development experience with modern frameworks like React and Node.js",
+      "Proficiency in containerization (Docker, Kubernetes) and API development"
+    ],
+    "improvement_areas": [
+      "Lack of explicit financial domain expertise or experience with financial software systems",
+      "No mention of specific financial tools or technologies such as market data APIs, trading platforms, or compliance systems",
+      "Limited detail on how her work directly impacted financial software performance or user experience"
+    ],
+    "reasoning": "Olivia Johnson has a strong background in software engineering, with experience at Bloomberg, a well-known financial technology company. She has worked on real-time trading platforms and cloud-based applications, which aligns well with the role of a software engineer at a financial software company. Her skills include C++, Node.js, Docker, Kubernetes, React, and REST APIs—key technologies that are relevant to modern software development in finance. However, her resume does not explicitly mention any specific financial domain knowledge or experience with financial systems, such as market data, risk management, or compliance tools, which could be important for this role. Additionally, while she has full-stack experience, the job may require more specialized knowledge in financial software architecture.",
+    "recommendation": "Good Match",
+    "processing_time": 4.93,
+    "processing_time_ms": 4930.0
+  },
+  {
+    "id": "0a1f6167",
+    "timestamp": "2025-09-07T23:03:45.135461",
+    "candidate_name": "Alice Smith",
+    "filename": "resume_2.pdf",
+    "match_score": 75,
+    "summary": "Alice Smith is a strong candidate with relevant technical skills and experience at top-tier companies. While she lacks direct financial software experience, her background in cloud and backend development makes her a good fit for a software engineer role at a financial software company.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Airbnb, Apple)",
+      "Strong technical skills in cloud computing (AWS), backend development, and modern web technologies",
+      "Familiarity with microservices and scalable application design",
+      "Proficient in multiple programming languages including Java, C++, and JavaScript"
+    ],
+    "improvement_areas": [
+      "Lack of explicit mention of financial software or fintech experience",
+      "No indication of domain-specific knowledge such as financial systems, compliance, or regulatory requirements",
+      "Limited detail on specific projects or outcomes related to financial applications"
+    ],
+    "reasoning": "Alice Smith has a solid background in software engineering, with experience at well-known companies such as Stripe, Airbnb, and Apple. She has worked on backend services, cloud-based applications, and real-time trading platforms, which aligns with the general requirements of a software engineer role at a financial software company. Her technical skills include SQL, C++, React, REST APIs, Docker, AWS, Node.js, and Java—many of which are relevant to financial software development. However, the resume does not explicitly mention any direct experience in financial systems, fintech, or domain-specific knowledge such as banking protocols, compliance, or financial data processing. This lack of specificity may reduce the match score slightly.",
+    "recommendation": "Good Match",
+    "processing_time": 4.528,
+    "processing_time_ms": 4527.6
+  },
+  {
+    "id": "4caea810",
+    "timestamp": "2025-09-07T23:03:45.724172",
+    "candidate_name": "Emily Miller",
+    "filename": "resume_4.pdf",
+    "match_score": 78,
+    "summary": "Emily Miller has strong technical qualifications and experience that align well with the role of a software engineer at a financial software company. While she lacks direct financial domain experience, her technical expertise and past roles make her a viable candidate who may benefit from further exploration of her interest in or understanding of financial systems.",
+    "strengths": [
+      "Strong technical skills in cloud computing (AWS), microservices, and containerization (Docker, Kubernetes)",
+      "Experience working at reputable tech companies (Apple, Bloomberg)",
+      "Background in developing scalable and high-performance systems",
+      "Proficient in multiple programming languages (Java, Python, SQL, TypeScript)"
+    ],
+    "improvement_areas": [
+      "Lack of explicit experience in financial software or domain-specific applications",
+      "Limited detail on how her work impacted financial systems or business outcomes",
+      "No mention of soft skills or collaboration in financial contexts"
+    ],
+    "reasoning": "Emily Miller has a solid background in software engineering with experience at well-known companies like Apple and Bloomberg. She has relevant technical skills such as Java, Python, SQL, Docker, AWS, Microservices, and Kubernetes, which align well with the requirements of a software engineer role in a financial software company. Her experience in developing backend systems and real-time platforms is valuable for financial applications. However, there is limited mention of specific financial software or domain knowledge (e.g., trading systems, risk management, or financial data processing), which could be a gap. Additionally, while she has worked on scalable applications, the resume lacks details on how her work directly impacted financial systems or user outcomes in that context.",
+    "recommendation": "Good Match",
+    "processing_time": 5.482,
+    "processing_time_ms": 5482.1
+  },
+  {
+    "id": "edd86640",
+    "timestamp": "2025-09-07T23:03:48.957579",
+    "candidate_name": "Isabella Martinez",
+    "filename": "resume_101.pdf",
+    "match_score": 35,
+    "summary": "Isabella Martinez has transferable soft skills but lacks the technical qualifications required for a software engineer role at a financial software company. She would need significant upskilling or additional experience in software development to be a strong candidate.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in a professional environment (JPMorgan)",
+      "Ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages or software engineering projects",
+      "No indication of familiarity with financial software or systems"
+    ],
+    "reasoning": "Isabella Martinez's resume shows experience as an Event Coordinator at JPMorgan and a Bachelor's degree from the University of Toronto. However, the resume lacks specific technical skills or experience relevant to software engineering, such as programming languages, software development methodologies, or financial software tools. While she has soft skills like communication, problem-solving, and leadership, these are not sufficient for a software engineer role in a financial software company. The job requires technical expertise that is not demonstrated in her current resume.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.211,
+    "processing_time_ms": 4210.6
+  },
+  {
+    "id": "6cc06dc2",
+    "timestamp": "2025-09-07T23:03:49.324547",
+    "candidate_name": "James Anderson",
+    "filename": "resume_91.pdf",
+    "match_score": 35,
+    "summary": "James Anderson has strong project management experience but lacks the technical software engineering skills and financial domain knowledge required for the role. He would need significant upskilling or relevant experience to be a strong fit for a software engineer position in a financial software company.",
+    "strengths": [
+      "Proven project management experience at a well-known company (Siemens)",
+      "Strong leadership and cross-functional collaboration skills",
+      "Bachelor's degree from a recognized university"
+    ],
+    "improvement_areas": [
+      "Lack of technical software development experience",
+      "No mention of programming languages or software engineering tools",
+      "No indication of financial software or fintech experience",
+      "Limited detail on specific achievements related to software development"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management within the construction industry, with experience at Siemens and a Bachelor's degree from a reputable institution. However, the job description specifies a 'software engineer for a financial software company,' which requires technical skills in software development, programming languages, and possibly domain knowledge in finance or financial systems. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in a team environment, these do not directly align with the core requirements of a software engineer role in a financial context.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.318,
+    "processing_time_ms": 4318.1
+  },
+  {
+    "id": "99ad4d1f",
+    "timestamp": "2025-09-07T23:03:49.598876",
+    "candidate_name": "Olivia Taylor",
+    "filename": "resume_81.pdf",
+    "match_score": 35,
+    "summary": "Olivia Taylor has a solid background in legal and project management roles but lacks the necessary technical qualifications and experience required for a Software Engineer position in a financial software company. Her transferable skills are valuable but insufficient to meet the job's technical demands.",
+    "strengths": [
+      "Strong project management and cross-functional collaboration experience",
+      "Demonstrated ability to deliver projects on time",
+      "Transferable soft skills including communication, problem-solving, and leadership"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or experience in software engineering",
+      "No mention of programming languages or software development tools",
+      "No relevant experience in financial software or technology domains",
+      "Education background not aligned with the technical requirements of the role"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in legal work as a Paralegal at Unilever, with experience in project delivery, cross-functional collaboration, and measurable results. However, the resume lacks any direct experience or skills related to software engineering or financial software development. The education is in a non-technical field (Bachelor's in National University of Singapore, though not explicitly stated as a technical degree). While the candidate demonstrates transferable skills such as communication, problem-solving, and leadership, these are not sufficient to meet the technical requirements of a Software Engineer role in a financial software company. The resume does not mention programming languages, software development methodologies, or financial domain knowledge, which are critical for this position.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.456,
+    "processing_time_ms": 4455.6
+  },
+  {
+    "id": "b52e8078",
+    "timestamp": "2025-09-07T23:03:49.764489",
+    "candidate_name": "Daniel Wilson",
+    "filename": "resume_71.pdf",
+    "match_score": 35,
+    "summary": "Daniel Wilson's resume shows strong soft skills and experience in a reputable organization, but lacks the technical qualifications and specific experience required for a Software Engineer role in a financial software company.",
+    "strengths": [
+      "Bachelor's degree from a prestigious institution (Harvard University)",
+      "Experience working in a high-profile organization (JPMorgan)",
+      "Strong communication and leadership skills"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or experience in software engineering",
+      "No mention of programming languages or development tools",
+      "No relevant experience in financial software or related domains",
+      "No specific projects or accomplishments related to software development"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer at a financial software company. The resume highlights experience as a Graphic Designer at JPMorgan, which is not directly relevant to software engineering roles. While the candidate has a Bachelor's degree from Harvard University and mentions skills such as communication, problem-solving, and leadership, these are general soft skills and do not reflect technical expertise in software development, programming languages, or financial software systems. The resume lacks specific details about coding experience, software projects, or any background in financial technology, which are critical for this role.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.027,
+    "processing_time_ms": 4027.2
+  },
+  {
+    "id": "33565249",
+    "timestamp": "2025-09-07T23:03:50.196845",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has strong technical skills and experience that align with the general requirements of a Software Engineer role at a financial software company. However, his lack of direct financial industry experience may require further evaluation or additional training to fully meet the needs of the position.",
+    "strengths": [
+      "Experienced in developing and maintaining data pipelines, which is valuable for building scalable financial software systems.",
+      "Proficient in cloud platforms (AWS) and containerization (Docker, Kubernetes), which are critical for modern financial software infrastructure.",
+      "Skilled in microservices architecture, a key component in many financial software solutions.",
+      "Strong technical foundation with expertise in multiple programming languages (Java, Go, Node.js)."
+    ],
+    "improvement_areas": [
+      "Lack of direct experience in financial software or fintech domains.",
+      "No specific mention of projects or responsibilities related to financial systems, compliance, or regulatory requirements.",
+      "Limited detail on how previous roles contributed to business outcomes in a financial context."
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. His resume highlights skills in cloud computing (AWS), microservices, and modern web technologies, which are relevant to the role of a Software Engineer at a financial software company. However, there is no explicit mention of financial software experience or domain-specific knowledge such as fintech, banking systems, or financial data processing. Additionally, his roles at Stripe and Netflix were primarily focused on data engineering and general software development rather than financial applications. While his technical skills align well with the job requirements, the lack of direct financial industry experience may limit his fit for this specific role.",
+    "recommendation": "Good Match",
+    "processing_time": 5.483,
+    "processing_time_ms": 5482.8
+  },
+  {
+    "id": "b09849bf",
+    "timestamp": "2025-09-07T23:03:52.696741",
+    "candidate_name": "Emily Davis",
+    "filename": "resume_61.pdf",
+    "match_score": 30,
+    "summary": "Emily Davis has a strong background in sales management but lacks the technical qualifications, experience, and skills required for a Software Engineer role at a financial software company. She would need significant retraining or a career shift to be considered for this position.",
+    "strengths": [
+      "Strong leadership and management experience",
+      "Proven ability to collaborate with cross-functional teams",
+      "Achievement-oriented mindset"
+    ],
+    "improvement_areas": [
+      "Lack of technical or software development experience",
+      "No relevant skills in programming or financial software",
+      "No indication of education or training in computer science or related fields"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description of a Software Engineer at a financial software company. The resume highlights experience as a Sales Manager at Amazon, which is unrelated to software development or financial technology. The education is in a non-technical field (Bachelor's from Harvard University, though the specific major is not mentioned), and the skills listed are general business skills such as communication, problem-solving, and leadership—none of which are directly relevant to software engineering. There is no mention of technical skills, programming languages, software development experience, or any exposure to financial systems or tools.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.725,
+    "processing_time_ms": 3725.3
+  },
+  {
+    "id": "f4eb050a",
+    "timestamp": "2025-09-07T23:03:53.517736",
+    "candidate_name": "Sophia Lee",
+    "filename": "resume_41.pdf",
+    "match_score": 25,
+    "summary": "Sophia Lee's resume shows little to no alignment with the requirements of a Software Engineer position at a financial software company. The candidate lacks the necessary technical background, industry-specific experience, and relevant skills required for the role.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of relevant technical skills (e.g., programming, software development)",
+      "No experience in financial software or related industries",
+      "No clear indication of computer science or software engineering education"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description of a Software Engineer for a financial software company. The resume highlights experience as a High School Teacher at Siemens, which is unrelated to software engineering or financial technology. The education listed is a Bachelor's degree from the University of Toronto, but there is no specific mention of a computer science or related field. The skills listed are generic and do not include technical competencies such as programming languages, software development methodologies, or financial systems knowledge. While the candidate demonstrates communication, problem-solving, and leadership skills, these are not directly relevant to the technical requirements of a software engineer role in finance.",
+    "recommendation": "Poor Match",
+    "processing_time": 3.909,
+    "processing_time_ms": 3908.7
+  },
+  {
+    "id": "a8d1b085",
+    "timestamp": "2025-09-07T23:03:53.721261",
+    "candidate_name": "Michael Brown",
+    "filename": "resume_51.pdf",
+    "match_score": 35,
+    "summary": "Michael Brown's resume shows no direct alignment with the Software Engineer role at a financial software company. His background in digital marketing and lack of technical expertise make him a poor fit for this position.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in cross-functional teams",
+      "Ability to deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No experience in financial software or related domains",
+      "No mention of programming languages or development tools",
+      "Education background not aligned with the role"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer at a financial software company. The resume highlights experience as a Digital Marketing Specialist at Tesla, which is unrelated to software engineering or financial technology. While the candidate has some transferable skills such as communication, problem-solving, and leadership, these are not specific to the technical requirements of a software engineer role. The resume lacks any mention of programming languages, software development experience, or financial domain knowledge, which are critical for this position. Additionally, the education background (Bachelor's in an unrelated field) further reduces the match score.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.374,
+    "processing_time_ms": 4374.3
+  },
+  {
+    "id": "64ca5068",
+    "timestamp": "2025-09-07T23:03:53.770725",
+    "candidate_name": "David Smith",
+    "filename": "resume_31.pdf",
+    "match_score": 35,
+    "summary": "David Smith has a strong background in healthcare and leadership but lacks the technical qualifications and experience required for a software engineer role in a financial software company. His resume does not align well with the job description.",
+    "strengths": [
+      "Strong communication and leadership skills",
+      "Experience working in a corporate environment (HSBC)",
+      "Ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of specific software development or programming skills",
+      "No mention of financial software or relevant technical certifications",
+      "Limited detail on project delivery or technical contributions"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in medical technology and healthcare, with experience at HSBC. However, the job description specifies a 'software engineer for a financial software company,' which requires technical skills in software development, programming languages, and possibly financial systems. The resume lacks specific technical skills such as coding (e.g., Python, Java, C#), software development methodologies, or experience in financial software. While the candidate has leadership and communication skills, these are not sufficient to meet the technical requirements of a software engineering role. The mismatch between the candidate's field (healthcare) and the job (financial software engineering) significantly reduces the match score.",
+    "recommendation": "Weak Match",
+    "processing_time": 3.987,
+    "processing_time_ms": 3987.0
+  },
+  {
+    "id": "30f6cf02",
+    "timestamp": "2025-09-07T23:03:54.883812",
+    "candidate_name": "Maria Gonzalez",
+    "filename": "resume_21.pdf",
+    "match_score": 35,
+    "summary": "Maria Gonzalez has a strong financial background but lacks the necessary technical skills and experience required for a software engineer role in a financial software company. She would need significant upskilling or repositioning to be a viable candidate for this position.",
+    "strengths": [
+      "Strong educational background from Imperial College London",
+      "Experience in a high-profile organization (Tesla)",
+      "Demonstrated leadership and teamwork abilities",
+      "Proven track record of delivering projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical or software development experience",
+      "No mention of programming languages or software tools",
+      "No indication of fintech or financial software expertise",
+      "Resume does not highlight relevant technical skills for a software engineer role"
+    ],
+    "reasoning": "Maria Gonzalez's resume shows a strong background in financial advising, with experience at Tesla and a degree from Imperial College London. However, the job description specifies a 'software engineer' role for a financial software company, which requires technical skills in software development, programming languages, and possibly financial systems or fintech experience. Maria's resume lacks any mention of software engineering experience, coding skills, or technical qualifications. While she has strong communication, leadership, and problem-solving skills, these are not sufficient to meet the technical requirements of a software engineer position. The resume does not align well with the specific technical and software development competencies needed for this role.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.679,
+    "processing_time_ms": 4679.3
+  },
+  {
+    "id": "285a0fc3",
+    "timestamp": "2025-09-07T23:03:58.901666",
+    "candidate_name": "Alex Johnson",
+    "filename": "resume_11.pdf",
+    "match_score": 65,
+    "summary": "Alex Johnson has a solid educational background and general software engineering experience, but lacks specific qualifications and experience in financial software. The resume would benefit from more detailed technical information and industry-specific context.",
+    "strengths": [
+      "Bachelor's degree from National University of Singapore, indicating strong academic background",
+      "Experience as a Backend Engineer, showing relevant software development experience",
+      "Demonstrated ability to work in cross-functional teams and deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of specific experience in financial software or related industries",
+      "No mention of technical skills relevant to financial systems (e.g., Java, Python, SQL, etc.)",
+      "No evidence of understanding of financial regulations or compliance",
+      "Generic skill set without concrete examples or achievements"
+    ],
+    "reasoning": "The candidate has a Bachelor's degree from a reputable institution, which is a positive indicator. However, the resume lacks specific details about software engineering experience in the financial sector. While the candidate worked as a Backend Engineer at Marriott, there is no mention of financial software or related technologies. The skills listed are generic and not tailored to the financial software domain. The resume does not include any technical stack, programming languages, or tools relevant to financial systems, such as Java, Python, SQL, or financial APIs. Additionally, there is no indication of experience with financial regulations, compliance, or domain-specific knowledge.",
+    "recommendation": "Moderate Match",
+    "processing_time": 6.196,
+    "processing_time_ms": 6195.7
+  },
+  {
+    "id": "38834fbe",
+    "timestamp": "2025-09-07T23:05:00.331865",
+    "candidate_name": "Alice Brown",
+    "filename": "resume_10.pdf",
+    "match_score": 75,
+    "summary": "Alice Brown is a qualified software engineer with experience at major tech companies and a strong foundation in key technologies. While the job description is broad, she meets the general requirements of the role. Further details would help refine the match.",
+    "strengths": [
+      "Experience at top-tier tech companies (Apple, Google, Airbnb)",
+      "Relevant technical skills including cloud computing (AWS), microservices, and full-stack development (JavaScript, Node.js)",
+      "Background in developing scalable and high-performance systems"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project descriptions or quantifiable achievements",
+      "No specific mention of the technologies or tools directly aligned with the job description (if it had more specific requirements)",
+      "Limited information on soft skills, teamwork, or leadership experience"
+    ],
+    "reasoning": "Alice Brown has a solid background in software engineering roles at well-known companies such as Apple, Google, and Airbnb. She has experience with backend development, real-time systems, and web applications, which aligns with the general requirements of a software engineer role. Her technical skills include Kubernetes, REST APIs, GraphQL, Microservices, JavaScript, Java, AWS, and Node.js—many of which are relevant to modern software engineering positions. However, the job description is very generic and does not specify particular technologies or industries, which limits the ability to assess a perfect match. Additionally, her resume lacks specific details about the scope of her work, measurable outcomes, or any mention of soft skills or team leadership, which could be important for a more comprehensive evaluation.",
+    "recommendation": "Good Match",
+    "processing_time": 4.957,
+    "processing_time_ms": 4957.4
+  },
+  {
+    "id": "8a7539d3",
+    "timestamp": "2025-09-07T23:05:07.711299",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 75,
+    "summary": "Alice Lee is a strong candidate for a general software engineer role, with relevant experience and technical skills. While she meets the basic qualifications, additional details about her specific contributions and technologies would improve her match with more specialized roles.",
+    "strengths": [
+      "Experience at top-tier tech companies (Bloomberg, Apple, Airbnb)",
+      "Relevant technical skills including AWS, React, TypeScript, and Microservices",
+      "Background in developing scalable applications and real-time systems",
+      "Strong understanding of cross-functional collaboration"
+    ],
+    "improvement_areas": [
+      "Lack of specificity in job responsibilities and technologies used in each role",
+      "No mention of programming languages beyond what's listed in the skills section",
+      "No indication of project-based work, open-source contributions, or personal projects",
+      "No clear alignment with a specific software engineering domain (e.g., front-end, back-end, full-stack, DevOps)"
+    ],
+    "reasoning": "Alice Lee has a solid background in software engineering with experience at well-known companies such as Bloomberg, Apple, and Airbnb. She has worked on real-time systems and data pipelines, which aligns with the general requirements of a software engineer role. Her skills include cloud computing (AWS), microservices, React, TypeScript, and SQL, which are relevant to many software engineering positions. However, the job description is very broad and does not specify a particular domain or technology stack, so her experience may not be fully aligned with more specialized roles. Additionally, there is no mention of specific projects, coding languages beyond what's listed, or any open-source contributions, which could strengthen her profile further.",
+    "recommendation": "Good Match",
+    "processing_time": 4.702,
+    "processing_time_ms": 4702.1
+  },
+  {
+    "id": "ed3809fd",
+    "timestamp": "2025-09-07T23:05:59.523157",
+    "candidate_name": "Alice Brown",
+    "filename": "resume_10.pdf",
+    "match_score": 75,
+    "summary": "Alice Brown has a strong foundation in software engineering with experience at leading tech companies and relevant technical skills. While the job description is generic, she appears to be a good fit for a general Software Engineer role, though more specific details would help refine the match.",
+    "strengths": [
+      "Experience at top-tier tech companies (Apple, Google, Airbnb)",
+      "Relevant technical skills including cloud computing (AWS), microservices, and modern web technologies (JavaScript, Node.js)",
+      "Background in developing scalable applications and improving system performance"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project or achievement descriptions that demonstrate impact",
+      "No specific mention of the exact technologies or tools required by the job (if any were specified)",
+      "Limited information on soft skills, teamwork, or leadership experience"
+    ],
+    "reasoning": "Alice Brown has a solid background in software engineering roles at well-known companies such as Apple, Google, and Airbnb. She has experience with backend development, real-time systems, and web applications, which aligns with the general requirements of a Software Engineer role. Her technical skills include Kubernetes, REST APIs, GraphQL, Microservices, JavaScript, Java, AWS, and Node.js—many of which are relevant to modern software engineering positions. However, the job description is very generic, and there is no specific mention of required technologies or responsibilities. Additionally, her resume lacks detailed project descriptions, quantifiable achievements, and any mention of soft skills or team leadership, which could be important for a full evaluation. The lack of specificity in both the job description and the resume limits the ability to determine a perfect match.",
+    "recommendation": "Good Match",
+    "processing_time": 5.182,
+    "processing_time_ms": 5182.5
+  },
+  {
+    "id": "84bd6538",
+    "timestamp": "2025-09-07T23:06:07.155681",
+    "candidate_name": "Olivia Johnson",
+    "filename": "resume_5.pdf",
+    "match_score": 85,
+    "summary": "Olivia Johnson is a highly qualified candidate with solid technical expertise and relevant experience in software engineering. While her resume is strong overall, it could benefit from more specific details to better align with a particular job's requirements.",
+    "strengths": [
+      "Relevant experience at Bloomberg in software engineering roles",
+      "Strong technical skills in cloud computing, microservices, and modern web frameworks",
+      "Education in Computer Science from a top university",
+      "Experience with DevOps tools like Docker and Kubernetes"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No mention of soft skills or team leadership experience",
+      "Generic job titles without detailed responsibilities"
+    ],
+    "reasoning": "Olivia Johnson has a strong match for the Software Engineer role. She has relevant experience at Bloomberg as both a Software Engineer and Full Stack Developer, working on real-time trading platforms and cloud-based applications. Her skills in modern web technologies such as React, Node.js, REST APIs, Docker, and Kubernetes align well with typical requirements for a software engineer position. She also holds a Bachelor of Computer Science from a reputable institution. However, the job description is very generic, and there are no specific details about the required technologies or domain (e.g., fintech, web development, mobile, etc.), which limits the ability to assess deeper alignment. Additionally, her resume lacks quantifiable achievements or specific project details that could further strengthen her profile.",
+    "recommendation": "Good Match",
+    "processing_time": 4.847,
+    "processing_time_ms": 4846.9
+  },
+  {
+    "id": "72b9eaca",
+    "timestamp": "2025-09-07T23:07:26.318324",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate's resume shows strong project management and leadership experience, but it lacks the technical qualifications and software engineering-specific skills required for the role. This is a poor match for a Software Engineer position.",
+    "strengths": [
+      "Bachelor's degree from a reputable institution (National University of Singapore)",
+      "Leadership and project management experience",
+      "Strong communication and problem-solving skills"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering (e.g., programming languages, algorithms, etc.)",
+      "No mention of software development projects or coding experience",
+      "Work experience is in construction project management, not software engineering",
+      "Resume lacks specific details about technical achievements or tools used"
+    ],
+    "reasoning": "The candidate's resume does not align well with the job description for a Software Engineer. The resume highlights experience as a Project Manager in Construction, which is unrelated to software engineering. The education listed is a Bachelor's degree from National University of Singapore, which is relevant, but the work experience and skills are focused on project management rather than software development. The resume lacks specific technical skills such as programming languages, software development methodologies, or any mention of coding or system design. While the candidate has leadership and communication skills, these are not the primary requirements for a Software Engineer role.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.251,
+    "processing_time_ms": 4251.1
+  },
+  {
+    "id": "b9f311ea",
+    "timestamp": "2025-09-07T23:08:20.603327",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 75,
+    "summary": "Alice Lee has a strong foundation in software engineering with relevant experience and skills. While she meets many of the requirements for a Software Engineer role, additional details about her technical work and methodologies would enhance her profile.",
+    "strengths": [
+      "Experience at top-tier companies (Bloomberg, Apple, Airbnb)",
+      "Relevant technical skills: AWS, Microservices, React, GraphQL, Kubernetes",
+      "Proven track record in developing and maintaining scalable applications",
+      "Strong understanding of cross-functional collaboration"
+    ],
+    "improvement_areas": [
+      "More detailed descriptions of technical responsibilities and tools used in each role",
+      "Inclusion of specific programming languages or frameworks (e.g., Python, Java, Node.js)",
+      "Mention of software development methodologies or project management experience",
+      "Addition of open-source contributions or personal projects if applicable"
+    ],
+    "reasoning": "Alice Lee has a solid background as a Software Engineer with experience at well-known companies like Bloomberg, Apple, and Airbnb. She has worked on real-time platforms and data pipelines, which shows her ability to handle complex systems. Her skills include cloud computing (AWS), microservices, React, and GraphQL, which are relevant for a Software Engineer role. However, the job description is not explicitly provided, so the analysis is based on standard expectations for a Software Engineer position. The resume lacks specific details about the technologies used in each role, such as programming languages or frameworks beyond what's listed. Additionally, there is no mention of software development methodologies (e.g., Agile, Scrum) or any open-source contributions, which could strengthen her profile.",
+    "recommendation": "Good Match",
+    "processing_time": 4.661,
+    "processing_time_ms": 4661.0
+  },
+  {
+    "id": "0635582b",
+    "timestamp": "2025-09-07T23:08:21.183796",
+    "candidate_name": "John Lee",
+    "filename": "resume_9.pdf",
+    "match_score": 75,
+    "summary": "John Lee is a qualified candidate with relevant technical skills and experience at leading tech companies. While his background is slightly more data engineering-focused, his core software development skills make him a strong fit for a Software Engineer role. Further clarification on the specific technologies and responsibilities of the position would help refine the match.",
+    "strengths": [
+      "Experience working at top-tier tech companies (Apple, Google)",
+      "Proficient in multiple programming languages (JavaScript, Python, Go)",
+      "Familiarity with cloud platforms (AWS) and modern web technologies (REST APIs, GraphQL)",
+      "Strong foundation in computer science from Stanford University"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project descriptions or measurable outcomes in his roles",
+      "Limited emphasis on full-stack or application development compared to data engineering tasks",
+      "No mention of soft skills, teamwork, or leadership experience",
+      "No indication of familiarity with specific software engineering methodologies (e.g., Agile, DevOps)"
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience in developing web applications and backend services at major tech companies like Apple and Google. His skills include JavaScript, Python, Go, AWS, REST APIs, and GraphQL, which align well with the requirements of a Software Engineer role. However, the job description does not explicitly specify the required technologies or frameworks, so some assumptions are made based on common expectations for a Software Engineer position. The resume lacks specific details about the scope of his work, such as the size of the teams he worked with, the complexity of the systems he built, or any contributions to open-source projects or personal coding initiatives. Additionally, while he has experience in data engineering roles, the job is for a Software Engineer, which may require more focus on full-stack development, system architecture, or application design rather than data pipeline development.",
+    "recommendation": "Good Match",
+    "processing_time": 5.244,
+    "processing_time_ms": 5244.1
+  },
+  {
+    "id": "9bd846e9",
+    "timestamp": "2025-09-07T23:08:21.973755",
+    "candidate_name": "Alice Brown",
+    "filename": "resume_10.pdf",
+    "match_score": 75,
+    "summary": "Alice Brown has a strong foundation in software engineering with experience at leading tech companies and relevant technical skills. While she meets the general requirements for a Software Engineer role, additional details about her specific contributions and technical depth would improve her match score.",
+    "strengths": [
+      "Experience at top-tier tech companies (Apple, Google, Airbnb)",
+      "Relevant technical skills including cloud computing (AWS), microservices, and web development (JavaScript, Node.js)",
+      "Strong background in backend and full-stack development",
+      "Familiarity with modern development practices and tools"
+    ],
+    "improvement_areas": [
+      "Lack of specific details about projects, achievements, or measurable outcomes",
+      "No mention of soft skills or team collaboration beyond 'collaborated with cross-functional teams'",
+      "Generic job titles without clear responsibilities or technologies used per role",
+      "No indication of domain-specific knowledge or advanced technical depth"
+    ],
+    "reasoning": "Alice Brown has a solid background in software engineering roles at well-known companies such as Apple, Google, and Airbnb. She has experience with backend development, real-time platforms, and web applications, which aligns with the general requirements of a Software Engineer position. Her technical skills include Kubernetes, REST APIs, GraphQL, Microservices, JavaScript, Java, AWS, and Node.js—many of which are relevant to modern software engineering roles. However, the job description is very generic and lacks specific technologies or frameworks that could be used to more precisely evaluate her fit. Additionally, there is no mention of soft skills, project management, or any specific domain expertise (e.g., fintech, healthcare, etc.) that might be relevant depending on the company's needs. The resume also lacks detailed descriptions of her contributions, impact, or measurable outcomes, which would strengthen her candidacy.",
+    "recommendation": "Good Match",
+    "processing_time": 6.045,
+    "processing_time_ms": 6045.3
+  },
+  {
+    "id": "a6d23186",
+    "timestamp": "2025-09-07T23:09:23.962391",
+    "candidate_name": "John Lee",
+    "filename": "resume_9.pdf",
+    "match_score": 75,
+    "summary": "John Lee has relevant technical skills and experience at top companies, but his current role as a Data Engineer may not fully align with the expectations of a Software Engineer position. He would benefit from emphasizing any software development work or additional project experience to strengthen his candidacy.",
+    "strengths": [
+      "Experience working at top tech companies (Apple and Google)",
+      "Proficient in key software engineering tools and languages (JavaScript, Node.js, Python, Go, AWS)",
+      "Knowledge of REST APIs and cloud computing",
+      "Strong educational background from Stanford University"
+    ],
+    "improvement_areas": [
+      "Lack of direct software engineering experience; current roles are in data engineering",
+      "Limited information on software design, system architecture, or full-stack development",
+      "No mention of collaboration on software development projects or agile methodologies"
+    ],
+    "reasoning": "John Lee has a solid background in software development, with experience as a Data Engineer at Apple and Google. His resume highlights skills in cloud computing (AWS), backend development, and modern web technologies like JavaScript, Node.js, and REST APIs, which are relevant to a Software Engineer role. However, the job description for a Software Engineer typically expects more direct experience in full-stack or general software engineering rather than data engineering. Additionally, the resume lacks specific details about software design, system architecture, or collaborative software development projects that would better align with a Software Engineer position. The candidate's education is strong, but the job description may also look for more hands-on software development experience.",
+    "recommendation": "Good Match",
+    "processing_time": 3.872,
+    "processing_time_ms": 3871.7
+  },
+  {
+    "id": "4b33758e",
+    "timestamp": "2025-09-07T23:09:24.560187",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 78,
+    "summary": "Alice Lee is a qualified software engineer with experience at major tech companies and a solid set of technical skills. While her resume is strong, it could benefit from more detailed project descriptions and additional context about her role and impact.",
+    "strengths": [
+      "Experience at top-tier tech companies (Bloomberg, Apple, Airbnb)",
+      "Relevant technical skills including AWS, React, Microservices, and Kubernetes",
+      "Strong background in developing scalable applications and systems",
+      "Proven collaboration with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of specificity in job responsibilities and project details",
+      "No mention of programming languages beyond what's listed (e.g., Python, Java)",
+      "Limited information on soft skills or leadership experience",
+      "No indication of open-source contributions or personal projects"
+    ],
+    "reasoning": "Alice Lee has a strong background in software engineering, with experience at well-known companies like Bloomberg, Apple, and Airbnb. She has worked on real-time platforms and data pipelines, which aligns with the general requirements of a software engineer role. Her skills include cloud computing (AWS), microservices, React, and TypeScript, which are relevant to many software engineering positions. However, the job description is very generic and does not specify particular technologies or domains, which limits the ability to assess a perfect match. Additionally, there is no mention of specific projects, coding languages beyond what's listed, or any soft skills that might be important for the role. The resume lacks detail on problem-solving, team leadership, or contributions to open-source projects, which could further strengthen her profile.",
+    "recommendation": "Good Match",
+    "processing_time": 4.467,
+    "processing_time_ms": 4466.9
+  },
+  {
+    "id": "758b070e",
+    "timestamp": "2025-09-07T23:10:24.013525",
+    "candidate_name": "Alice Lee",
+    "filename": "resume_8.pdf",
+    "match_score": 78,
+    "summary": "Alice Lee has a solid foundation in software engineering with relevant technical skills and experience at reputable companies. While she meets many of the general requirements for a Software Engineer role, additional specificity in her resume would improve the match further.",
+    "strengths": [
+      "Experience at top-tier companies (Bloomberg, Apple, Airbnb)",
+      "Relevant technical skills: AWS, Microservices, React, TypeScript, SQL",
+      "Background in developing scalable applications and real-time systems",
+      "Strong understanding of cross-functional collaboration"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "Repetition of similar responsibilities across roles may suggest limited growth or depth",
+      "No clear indication of soft skills or leadership experience",
+      "Generic job description makes it difficult to tailor the resume effectively"
+    ],
+    "reasoning": "Alice Lee has a strong background in software engineering with experience at well-known companies such as Bloomberg, Apple, and Airbnb. She has worked on real-time systems and data pipelines, which are relevant to the role of a Software Engineer. Her technical skills include cloud computing (AWS), microservices, React, and TypeScript, all of which align with common requirements for software engineer positions. However, the job description is very generic and lacks specific details about the technologies or tools required, making it harder to assess the exact match. Additionally, there is no mention of any specific projects, open-source contributions, or soft skills that might be important for the role. The resume also repeats similar responsibilities across different roles, which could indicate a lack of depth or variety in her experience.",
+    "recommendation": "Good Match",
+    "processing_time": 5.84,
+    "processing_time_ms": 5839.9
+  },
+  {
+    "id": "7a7959ad",
+    "timestamp": "2025-09-07T23:10:37.250529",
+    "candidate_name": "Alice Smith",
+    "filename": "resume_2.pdf",
+    "match_score": 85,
+    "summary": "Alice Smith is a qualified software engineer with experience at major tech companies and a solid technical foundation. While her resume is strong overall, it would benefit from more specific details about her contributions and the technologies used in her projects.",
+    "strengths": [
+      "Experience at top-tier tech companies (Stripe, Airbnb, Apple)",
+      "Strong technical skill set including cloud computing, REST APIs, Docker, and AWS",
+      "Relevant experience in backend development and system performance improvement",
+      "Proficient in multiple programming languages (C++, Java, Node.js, etc.)"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable achievements",
+      "No clear indication of soft skills or team collaboration",
+      "Resume does not mention any specific tools or frameworks commonly used in software engineering roles (e.g., Git, CI/CD, Agile methodologies)",
+      "Generic job titles without detailed responsibilities"
+    ],
+    "reasoning": "Alice Smith has a strong background in software engineering, with experience at well-known companies such as Stripe, Airbnb, and Apple. She has worked on backend services, cloud-based applications, and real-time trading platforms, which aligns well with the general requirements of a software engineer role. Her technical skills include SQL, C++, React, REST APIs, Docker, AWS, Node.js, and Java—many of which are relevant to modern software development. However, the job description is very generic, and there is no specific mention of the technologies or responsibilities expected. Additionally, while she has experience in multiple areas, the resume lacks detailed project descriptions or measurable outcomes that could further strengthen her match. The absence of any mention of soft skills, teamwork, or leadership also limits the depth of the evaluation.",
+    "recommendation": "Good Match",
+    "processing_time": 5.343,
+    "processing_time_ms": 5342.6
+  },
+  {
+    "id": "cd45b9e4",
+    "timestamp": "2025-09-07T23:10:46.201609",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 88,
+    "summary": "Baisheng Song is a highly qualified software engineer with significant experience in financial technology and high-performance systems. His technical expertise and industry experience make him a strong fit for a software engineer role, though some areas may require further clarification depending on the specific job requirements.",
+    "strengths": [
+      "Extensive experience in building high-performance, low-latency systems in financial contexts",
+      "Strong technical skills in Python, C++, and distributed systems",
+      "Proven ability to work with quantitative teams and translate complex strategies into code",
+      "Experience with CI/CD, testing frameworks, and performance optimization",
+      "Worked at prestigious companies such as Bloomberg and BlackRock"
+    ],
+    "improvement_areas": [
+      "Lack of explicit mention of soft skills or team collaboration practices",
+      "Limited information on web development or front-end technologies",
+      "No clear indication of experience with cloud-native or microservices architectures"
+    ],
+    "reasoning": "The candidate has a strong background in software engineering with extensive experience in building high-performance systems, particularly in the financial sector. The resume highlights relevant skills such as Python, C++, distributed systems, APIs, and data processing, which align well with the requirements of a software engineer role. Experience at top-tier firms like Bloomberg and BlackRock adds credibility. However, while the resume is technically rich, it lacks specific mention of general software engineering best practices (e.g., agile methodologies, team collaboration, or soft skills), which are often important for a broader software engineering role. Additionally, there is no explicit mention of web development, front-end technologies, or cloud-native architecture, which could be relevant depending on the job's focus.",
+    "recommendation": "Strong Match",
+    "processing_time": 5.003,
+    "processing_time_ms": 5002.7
+  },
+  {
+    "id": "3a675b3e",
+    "timestamp": "2025-09-07T23:10:54.668742",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. This resume does not align well with the job description.",
+    "strengths": [
+      "Strong project management experience with a major company (Siemens)",
+      "Demonstrated ability to deliver projects on time and collaborate with cross-functional teams",
+      "Leadership and communication skills that could be valuable in team-based software environments"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software development experience",
+      "No mention of programming languages, tools, or specific software engineering roles",
+      "Formatting and readability issues that may affect professional perception",
+      "No clear alignment with the technical requirements of a software engineer position"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills, these are not sufficient to meet the core requirements of a software engineer position. The resume also contains formatting issues and typos, which may indicate a lack of attention to detail.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.406,
+    "processing_time_ms": 4405.7
+  },
+  {
+    "id": "8d6d19c1",
+    "timestamp": "2025-09-07T23:13:31.642358",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. A weak match due to significant mismatch in core competencies.",
+    "strengths": [
+      "Experience in project management with a reputable company (Siemens)",
+      "Strong leadership and communication skills",
+      "Proven ability to deliver projects on time and collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages, software development experience, or technical certifications",
+      "Poor formatting and unclear information (e.g., candidate name, education details)",
+      "No specific examples of software-related achievements or responsibilities"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills, these are not sufficient to meet the core requirements of a software engineer position. The resume also contains formatting issues and lacks clarity in some sections, such as the name and education details.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.285,
+    "processing_time_ms": 4285.3
+  },
+  {
+    "id": "082d1dda",
+    "timestamp": "2025-09-07T23:13:33.112971",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 92,
+    "summary": "Baisheng Song is a highly qualified software engineer with extensive experience in financial technology, particularly in building scalable, low-latency systems. His technical skills and domain expertise make him a strong fit for the role, though some areas could benefit from further clarification.",
+    "strengths": [
+      "Extensive experience in building high-performance, low-latency systems for financial applications",
+      "Strong proficiency in Python, C++, and distributed systems",
+      "Proven ability to work with quantitative researchers and traders to implement complex financial models",
+      "Experience with CI/CD, testing frameworks, and code quality initiatives",
+      "Relevant domain knowledge in systematic trading, risk modeling, and financial data"
+    ],
+    "improvement_areas": [
+      "More explicit mention of general software engineering practices (e.g., full-stack development, agile methodologies)",
+      "Clarification on team size and collaboration dynamics in previous roles",
+      "Additional details on open-source contributions or public projects (if applicable)"
+    ],
+    "reasoning": "The candidate has an excellent match with the software engineer role, particularly in the financial technology and quantitative domains. They have 9+ years of experience in building high-performance systems, working with Python, C++, and distributed systems, which aligns well with the technical requirements of a software engineer position. Their experience at Bloomberg and OakNorth demonstrates strong skills in developing low-latency trading systems, data platforms, and APIs, which are highly relevant to the role. The resume also highlights expertise in CI/CD, testing frameworks, and cloud computing, all of which are valuable for a software engineer. However, there is limited explicit mention of general software engineering practices such as full-stack development, agile methodologies, or team collaboration beyond their specific domain, which could be a minor gap.",
+    "recommendation": "Strong Match",
+    "processing_time": 5.756,
+    "processing_time_ms": 5756.1
+  },
+  {
+    "id": "1b6ce4bd",
+    "timestamp": "2025-09-07T23:16:13.881707",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a strong technical background and relevant skills for a Software Engineer role, but the resume lacks depth in specific contributions and alignment with the job's potential requirements.",
+    "strengths": [
+      "Experience at reputable companies (Stripe, Netflix)",
+      "Relevant technical skills including cloud computing, microservices, and containerization tools",
+      "Strong foundation in multiple programming languages (Java, Go, C++)",
+      "Familiarity with modern web technologies and DevOps tools"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable achievements",
+      "Experience as a Data Engineer may not directly align with a Software Engineer role unless the position requires data engineering skills",
+      "No clear indication of soft skills or team collaboration beyond cross-functional work"
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. He has relevant skills such as Kubernetes, Node.js, Docker, Microservices, Java, AWS, C++, and Go, which align well with the requirements of a Software Engineer role. However, the job description is very general, and there is no specific mention of the technologies or responsibilities that the role entails. Additionally, his resume lacks details on specific projects, contributions, or measurable outcomes, which would strengthen the match. His experience as a Data Engineer may not fully align with the expectations of a Software Engineer role unless the position requires data engineering skills.",
+    "recommendation": "Good Match",
+    "processing_time": 4.252,
+    "processing_time_ms": 4251.9
+  },
+  {
+    "id": "deffab88",
+    "timestamp": "2025-09-07T23:16:14.042251",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. This is a poor match for a software engineer position.",
+    "strengths": [
+      "Strong project management experience with a major company (Siemens)",
+      "Demonstrated ability to lead cross-functional teams",
+      "Experience in delivering projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering (e.g., programming languages, development tools, etc.)",
+      "No mention of software development projects or technical responsibilities",
+      "No indication of knowledge in software design, algorithms, or system architecture"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description is for a 'Software Engineer' role, which requires technical skills in software development, programming languages, system design, and possibly experience with development methodologies. The resume lacks any mention of software engineering-related skills, coding experience, or technical projects. While the candidate has leadership and communication skills, these are not directly aligned with the core requirements of a software engineer position. The mismatch between the candidate's background and the job's technical demands significantly reduces the match score.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.411,
+    "processing_time_ms": 4410.7
+  },
+  {
+    "id": "1e465df8",
+    "timestamp": "2025-09-07T23:16:14.273626",
+    "candidate_name": "Alice Smith",
+    "filename": "resume_2.pdf",
+    "match_score": 85,
+    "summary": "Alice Smith is a strong candidate for a Software Engineer role, with relevant experience and technical skills. While the resume is somewhat generic, her background and skill set make her a solid fit for most software engineering positions.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Airbnb, Apple)",
+      "Relevant technical skills including cloud computing (AWS), backend development, and modern web technologies (React, Node.js)",
+      "Strong understanding of system performance and user experience improvements",
+      "Proven ability to collaborate with cross-functional teams"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No mention of soft skills or leadership experience",
+      "Resume does not highlight any open-source contributions or personal projects",
+      "No indication of familiarity with specific tools or frameworks commonly used in the target company's stack"
+    ],
+    "reasoning": "Alice Smith has a strong background in software engineering, with experience at well-known companies such as Stripe, Airbnb, and Apple. She has worked on backend services, cloud-based applications, and real-time trading platforms, which aligns well with the general requirements of a Software Engineer role. Her skills include SQL, C++, React, REST APIs, Docker, AWS, Node.js, and Java—many of which are relevant to modern software development. However, the job description is very generic, and there is no specific mention of technologies or responsibilities that would allow for a perfect match. Additionally, the resume lacks details about specific projects, contributions, or measurable outcomes, which could have strengthened the match further.",
+    "recommendation": "Good Match",
+    "processing_time": 4.642,
+    "processing_time_ms": 4641.8
+  },
+  {
+    "id": "ec71982b",
+    "timestamp": "2025-09-07T23:16:15.129495",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 92,
+    "summary": "Baisheng Song is a highly qualified software engineer with significant experience in financial technology, particularly in building high-performance systems. His technical skills and domain knowledge make him a strong match for a software engineer role, especially in environments that require expertise in distributed systems, real-time data processing, and financial algorithms.",
+    "strengths": [
+      "Extensive experience in building scalable, low-latency systems in financial technology environments.",
+      "Strong proficiency in Python and C++ with a focus on performance and reliability.",
+      "Experience with distributed systems, APIs, and CI/CD pipelines.",
+      "Proven ability to collaborate with cross-functional teams including quantitative researchers and product managers.",
+      "Demonstrated expertise in time series data processing and risk modeling."
+    ],
+    "improvement_areas": [
+      "Limited explicit mention of full-stack development or web-based applications, which may be relevant for some software engineering roles.",
+      "Less emphasis on soft skills such as team leadership or mentoring, though some leadership is implied through project ownership.",
+      "Fewer details on open-source contributions or collaborative coding practices beyond CI/CD."
+    ],
+    "reasoning": "The candidate has an impressive 9+ years of experience as a Senior Software Engineer, with a strong focus on building high-performance systems in financial technology. The resume highlights extensive experience with Python, C++, and distributed systems, which are highly relevant to a software engineer role. The candidate has worked on projects involving real-time data processing, APIs, CI/CD, and performance optimization—key areas for a software engineer. Additionally, the resume includes experience with cloud computing (AWS/GCP), version control, and time series analysis, all of which align well with typical software engineering requirements. However, while the candidate's background is heavily focused on financial systems, there is limited mention of general software engineering practices such as full-stack development, web frameworks, or broader application design, which could be important depending on the specific job requirements.",
+    "recommendation": "Strong Match",
+    "processing_time": 5.509,
+    "processing_time_ms": 5509.3
+  },
+  {
+    "id": "b37cbb7e",
+    "timestamp": "2025-09-07T23:17:29.118742",
+    "candidate_name": "Alice Smith",
+    "filename": "resume_2.pdf",
+    "match_score": 85,
+    "summary": "Alice Smith is a qualified Software Engineer with solid experience and relevant technical skills. While the job description is broad, she meets the general requirements and would be a strong candidate for a variety of software engineering roles.",
+    "strengths": [
+      "Experience at top-tier tech companies (Stripe, Airbnb, Apple)",
+      "Relevant technical skills including cloud computing (AWS), backend development, and modern web technologies",
+      "Strong understanding of collaboration and system performance improvements",
+      "Education from a reputable institution (Imperial College London)"
+    ],
+    "improvement_areas": [
+      "Lack of specific project details or measurable outcomes",
+      "No clear focus on a particular domain (e.g., frontend, backend, DevOps)",
+      "Limited information on soft skills or leadership experience"
+    ],
+    "reasoning": "Alice Smith has a strong background as a Software Engineer with experience at well-known companies like Stripe, Airbnb, and Apple. She has worked on backend services, cloud-based applications, and real-time trading platforms, which aligns well with the general requirements of a Software Engineer role. Her skills in SQL, C++, React, REST APIs, Docker, AWS, Node.js, and Java are relevant to most software engineering positions. However, the job description is very generic and does not specify particular technologies or domains (e.g., frontend, backend, full-stack, mobile, etc.), which limits the ability to assess a perfect match. Additionally, her resume lacks specific details about projects, measurable outcomes, or technical depth in any one area, which could be important for more specialized roles.",
+    "recommendation": "Good Match",
+    "processing_time": 4.841,
+    "processing_time_ms": 4841.1
+  },
+  {
+    "id": "152471d1",
+    "timestamp": "2025-09-07T23:17:29.155130",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a strong technical background and relevant experience for a Software Engineer role, but could benefit from providing more detailed information about his contributions and the specific technologies he has worked with.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Netflix)",
+      "Relevant technical skills including AWS, Node.js, Java, Go, and microservices",
+      "Background in developing and maintaining data pipelines, which indicates strong software development capabilities",
+      "Strong foundation in computer science from UC Berkeley"
+    ],
+    "improvement_areas": [
+      "Lack of specific project or system details that demonstrate problem-solving and impact",
+      "No clear indication of soft skills or team collaboration beyond 'cross-functional teams'",
+      "Limited information on the scope of work or technologies used in previous roles",
+      "No mention of software development methodologies (e.g., Agile, DevOps) or tools (e.g., Git, CI/CD)"
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. His resume highlights skills in cloud computing (AWS), microservices, and modern web technologies (Node.js, Java, Go), which are relevant to the Software Engineer role. However, the job description is not explicitly provided, so the analysis is based on general expectations for a Software Engineer position. The resume lacks specific details about the types of software he developed, the size of the systems he worked on, or any project-specific achievements. Additionally, while he has experience as a Senior Software Engineer, the job may require more detailed technical depth or specific domain knowledge that isn't clearly outlined.",
+    "recommendation": "Good Match",
+    "processing_time": 4.881,
+    "processing_time_ms": 4881.3
+  },
+  {
+    "id": "6e507a34",
+    "timestamp": "2025-09-07T23:17:29.209392",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. A better match would be a candidate with a software development background and relevant technical expertise.",
+    "strengths": [
+      "Experience as a Project Manager at a reputable company (Siemens)",
+      "Strong leadership and cross-functional collaboration skills",
+      "Demonstrated ability to deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software engineering experience",
+      "No mention of programming languages or software development tools",
+      "Resume formatting and clarity could be improved",
+      "No specific details about software-related achievements or responsibilities"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly system design or architecture. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills, these are not sufficient to meet the core requirements of a software engineer position. The resume also appears to be poorly formatted and contains some typos or formatting issues that may affect readability.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.913,
+    "processing_time_ms": 4913.1
+  },
+  {
+    "id": "19090f96",
+    "timestamp": "2025-09-07T23:17:29.843727",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 92,
+    "summary": "Baisheng Song is a highly qualified software engineer with significant experience in financial technology and high-performance systems. His technical skills and project experience align closely with the requirements of a software engineer role, especially in fintech or related fields. While his background is more specialized, it still makes him a strong candidate for many software engineering positions.",
+    "strengths": [
+      "Extensive experience in building high-performance, low-latency systems",
+      "Strong proficiency in Python and C++",
+      "Experience with distributed systems, APIs, and CI/CD pipelines",
+      "Proven ability to collaborate with quantitative researchers and traders",
+      "Track record of delivering scalable and robust software solutions"
+    ],
+    "improvement_areas": [
+      "Limited exposure to general-purpose software engineering beyond financial systems",
+      "Less emphasis on web development or full-stack capabilities (if required by the role)",
+      "Fewer details on open-source contributions or collaborative coding practices"
+    ],
+    "reasoning": "The candidate has a strong and relevant background in software engineering, with extensive experience in building high-performance systems, particularly in financial technology contexts. The resume highlights expertise in Python, C++, distributed systems, and APIs—skills that are highly relevant to a software engineer role. The candidate has worked on projects involving real-time data processing, low-latency systems, and scalable infrastructure, which aligns well with typical expectations for a software engineer position. Additionally, the resume includes experience with CI/CD, testing frameworks, and collaboration with cross-functional teams, all of which are important for a software engineer. However, while the resume is very strong, it is more focused on financial systems and trading platforms, which may not fully align with a general software engineer role unless the job is specifically in fintech or similar domains. There is also limited mention of web development, front-end technologies, or broader software engineering practices outside of the financial domain.",
+    "recommendation": "Strong Match",
+    "processing_time": 5.548,
+    "processing_time_ms": 5548.4
+  },
+  {
+    "id": "c7d3b0de",
+    "timestamp": "2025-09-07T23:18:38.902155",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. A weak match due to significant mismatch in core competencies.",
+    "strengths": [
+      "Strong project management experience with a reputable company (Siemens)",
+      "Demonstrated ability to deliver projects on time and collaborate with cross-functional teams",
+      "Leadership and communication skills that are transferable to team-based software environments"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or experience in software engineering",
+      "No mention of programming languages, development tools, or software-related projects",
+      "Incomplete or unclear resume formatting that reduces readability",
+      "No specific mention of software development methodologies (e.g., Agile, Scrum)"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly specific tools or frameworks. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in any role, these do not align directly with the technical requirements of a software engineer position. The resume also contains formatting issues and missing details that reduce its clarity and relevance.",
+    "recommendation": "Weak Match",
+    "processing_time": 5.892,
+    "processing_time_ms": 5892.4
+  },
+  {
+    "id": "b1b297e3",
+    "timestamp": "2025-09-07T23:18:39.542432",
+    "candidate_name": "John Lee",
+    "filename": "resume_1.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a good match for the Software Engineer role, with relevant technical skills and experience at top-tier companies. However, additional details on software development projects and full-stack capabilities would improve the alignment.",
+    "strengths": [
+      "Experience at reputable tech companies (Stripe, Netflix)",
+      "Relevant technical skills: AWS, Microservices, Node.js, Docker, Kubernetes",
+      "Strong background in cloud computing and system performance improvements"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project examples or specific software development achievements",
+      "Limited mention of full-stack or application development experience",
+      "Role titles (Data Engineer) may not fully align with the Software Engineer position unless the role is data-focused"
+    ],
+    "reasoning": "John Lee has a solid background in software engineering, with experience at well-known companies like Stripe and Netflix. His resume highlights skills in cloud computing (AWS), microservices, and modern web technologies (Node.js, Java, Go), which are relevant to the Software Engineer role. However, the job description likely expects more specific details about software development projects, coding languages commonly used in software engineering roles (e.g., Python, JavaScript), or experience with full-stack development. Additionally, his current roles are listed as 'Data Engineer' and 'Senior Software Engineer,' which may not fully align with the expectations of a general Software Engineer position unless the role is specifically focused on data infrastructure. The resume lacks project-specific achievements or technical depth that could further strengthen the match.",
+    "recommendation": "Good Match",
+    "processing_time": 6.552,
+    "processing_time_ms": 6551.9
+  },
+  {
+    "id": "2dbfbd1b",
+    "timestamp": "2025-09-07T23:18:43.858819",
+    "candidate_name": "Baisheng Song",
+    "filename": "Baisheng_Song_Resume_.pdf",
+    "match_score": 88,
+    "summary": "Baisheng Song is a highly experienced software engineer with a strong background in financial systems and data platforms. Their technical skills and domain knowledge make them a strong candidate for software engineering roles, particularly in fintech or data-intensive environments. While the match is excellent, there may be slight ambiguity depending on the specific focus of the job.",
+    "strengths": [
+      "9+ years of experience in software engineering with a focus on high-performance and low-latency systems.",
+      "Extensive experience with Python, C++, and distributed systems, which are core skills for many software engineering roles.",
+      "Proven track record in designing and delivering complex financial systems such as trading platforms, risk models, and data integration workflows.",
+      "Strong collaboration skills with quantitative researchers, traders, and product teams, indicating good communication and teamwork abilities.",
+      "Experience with CI/CD, testing frameworks, and code quality practices, which are essential for modern software development."
+    ],
+    "improvement_areas": [
+      "The resume could include more specific details about the types of software engineering projects that are not finance-focused, if the job is in a different domain.",
+      "While the candidate has experience in financial systems, it may be beneficial to highlight any cross-domain or general-purpose software engineering experience if applicable.",
+      "More information on cloud infrastructure (e.g., AWS/GCP) or full-stack development could strengthen the match for a broader software engineering role."
+    ],
+    "reasoning": "The candidate has extensive experience as a Senior Software Engineer in the financial technology sector, with a strong focus on building high-performance systems, data platforms, and risk modeling frameworks. Their background in Python, C++, distributed systems, and time series data aligns closely with the requirements of a software engineer role, especially in financial or data-driven environments. They have worked at top-tier firms like Bloomberg and BlackRock, which adds credibility to their technical and domain expertise. However, the job description is general and does not specify a particular industry (e.g., fintech, SaaS, etc.), so while the candidate is highly qualified for many software engineering roles, there may be some ambiguity about whether they are a perfect fit for a more general software engineering position without specific financial domain emphasis.",
+    "recommendation": "Good Match",
+    "processing_time": 10.851,
+    "processing_time_ms": 10851.4
+  }
+]
