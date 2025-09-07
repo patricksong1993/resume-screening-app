@@ -714,8 +714,19 @@ function callUploadAPI() {
         status: "loading"
     });
 
-    // Try PythonAnywhere first, fallback to localhost if needed
-    const apiUrl = 'http://localhost:8000/api/upload-resume'; // Uncomment for local testing
+    // Determine API URL based on environment
+    const getApiUrl = () => {
+        // Check if we're in production (deployed)
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            // Production: use the same hostname as the frontend
+            return `${window.location.protocol}//${window.location.hostname}/api/upload-resume`;
+        } else {
+            // Development: use localhost
+            return 'http://localhost:8000/api/upload-resume';
+        }
+    };
+    
+    const apiUrl = getApiUrl();
     
     console.log('📡 Calling API:', apiUrl);
     
@@ -1425,7 +1436,20 @@ window.testPreviousResults = testPreviousResults;
 function testAPIConnection() {
     console.log('🔌 Testing API connectivity...');
     
-    fetch('http://localhost:8000/api/health', {
+    // Determine API URL based on environment
+    const getHealthApiUrl = () => {
+        if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+            // Production: use the same hostname as the frontend
+            return `${window.location.protocol}//${window.location.hostname}/api/health`;
+        } else {
+            // Development: use localhost
+            return 'http://localhost:8000/api/health';
+        }
+    };
+    
+    const healthApiUrl = getHealthApiUrl();
+    
+    fetch(healthApiUrl, {
         method: 'GET'
     })
     .then(response => {
@@ -1444,7 +1468,17 @@ function testAPIConnection() {
         console.log('🔧 Trying alternative endpoint...');
         
         // Try the info endpoint as backup
-        fetch('http://localhost:8000/api/info')
+        const getInfoApiUrl = () => {
+            if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+                return `${window.location.protocol}//${window.location.hostname}/api/info`;
+            } else {
+                return 'http://localhost:8000/api/info';
+            }
+        };
+        
+        const infoApiUrl = getInfoApiUrl();
+        
+        fetch(infoApiUrl)
         .then(response => {
             console.log('🔌 Info endpoint status:', response.status);
             return response.json();
@@ -1454,7 +1488,7 @@ function testAPIConnection() {
         })
         .catch(error2 => {
             console.error('❌ All API endpoints failed:', error2);
-            console.log('💡 Suggestion: Check if the backend service is running on PythonAnywhere');
+            console.log('💡 Suggestion: Check if the backend service is running');
         });
     });
 }
