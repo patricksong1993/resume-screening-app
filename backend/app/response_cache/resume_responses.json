@@ -1638,5 +1638,188 @@
     "recommendation": "Weak Match",
     "processing_time": 7.871,
     "processing_time_ms": 7870.9
+  },
+  {
+    "id": "47c63468",
+    "timestamp": "2025-09-08T00:54:05.790145",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has a strong project management background but lacks the necessary technical skills and experience required for a software engineer role. This is a poor match for the position.",
+    "strengths": [
+      "Strong project management experience",
+      "Proven ability to deliver projects on time",
+      "Collaboration with cross-functional teams",
+      "Leadership and communication skills"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages or software development experience",
+      "No specific technical qualifications or certifications",
+      "No alignment with software engineering job requirements"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description is for a 'Software Engineer' role, which requires technical skills in software development, programming languages, and system design. The resume lacks any mention of software engineering experience, coding skills, or technical qualifications. While the candidate has leadership and communication skills, these are not the primary requirements for a software engineer position. The mismatch between the candidate's background and the job's technical demands significantly reduces the match score.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.722,
+    "processing_time_ms": 4722.4
+  },
+  {
+    "id": "d934c200",
+    "timestamp": "2025-09-08T01:07:02.992954",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the specific technical skills and software engineering background required for the role. A weak match due to mismatch in core qualifications.",
+    "strengths": [
+      "Strong project management experience with a major company (Siemens)",
+      "Demonstrated ability to deliver projects on time and collaborate with cross-functional teams",
+      "Leadership and communication skills that are transferable to team-based software environments"
+    ],
+    "improvement_areas": [
+      "Lack of specific software engineering experience or technical skills",
+      "No mention of programming languages, software development tools, or relevant certifications",
+      "Resume formatting and clarity could be improved for better readability and professionalism"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly system design or architecture. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in any role, these do not align directly with the technical requirements of a software engineer position. The resume also appears to be poorly formatted and contains some typos or formatting issues, which may indicate a lack of attention to detail.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.338,
+    "processing_time_ms": 4338.1
+  },
+  {
+    "id": "0f6cf779",
+    "timestamp": "2025-09-08T01:07:15.894071",
+    "candidate_name": "John Lee",
+    "filename": "resume_9.pdf",
+    "match_score": 75,
+    "summary": "John Lee has a strong technical foundation and experience at leading tech companies, making him a good fit for a Software Engineer role. However, his background is more data engineering-focused, and additional details on software development projects would strengthen his candidacy.",
+    "strengths": [
+      "Relevant technical skills including JavaScript, Python, Go, AWS, and REST APIs",
+      "Experience working at top tech companies (Apple and Google)",
+      "Familiarity with cloud computing and backend services"
+    ],
+    "improvement_areas": [
+      "Lack of direct software engineering experience; more focus on data engineering",
+      "No specific mention of software design, architecture, or full-stack development",
+      "Limited information on collaborative or leadership experiences",
+      "No projects, open-source contributions, or portfolio links provided"
+    ],
+    "reasoning": "John Lee has a solid background in software development, with experience as a Data Engineer at Apple and Google. His resume lists relevant technical skills such as JavaScript, Python, Go, AWS, REST APIs, and GraphQL, which align well with the requirements of a Software Engineer role. However, the job description likely expects more direct experience in software engineering rather than data engineering, and the resume lacks specific details about software design, architecture, or project management. Additionally, there is no mention of soft skills like teamwork, communication, or leadership, which are often important for software engineers. The resume also does not include any projects, open-source contributions, or specific technologies that are commonly expected in a software engineer role.",
+    "recommendation": "Good Match",
+    "processing_time": 5.26,
+    "processing_time_ms": 5260.2
+  },
+  {
+    "id": "77b17f77",
+    "timestamp": "2025-09-08T01:10:04.958273",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and skills required for a software engineer role. The resume does not align with the job description, resulting in a poor match.",
+    "strengths": [
+      "Strong project management experience",
+      "Leadership and cross-functional collaboration skills",
+      "Proven ability to deliver projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages or software development experience",
+      "Formatting and grammatical issues in the resume",
+      "No specific software engineering qualifications or certifications"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description is for a 'Software Engineer' role, which requires technical skills in software development, programming languages, and system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills, these are not sufficient to meet the core requirements of a software engineer position. The resume also contains formatting issues and typos, which may indicate a lack of attention to detail.",
+    "recommendation": "Poor Match",
+    "processing_time": 4.705,
+    "processing_time_ms": 4704.9
+  },
+  {
+    "id": "c04e954b",
+    "timestamp": "2025-09-08T01:11:26.996540",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. A weak match due to misalignment between the candidate's background and the job requirements.",
+    "strengths": [
+      "Strong project management experience",
+      "Proven ability to deliver projects on time",
+      "Collaboration with cross-functional teams",
+      "Leadership and communication skills"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages or software development experience",
+      "Resume formatting and clarity could be improved",
+      "No specific mention of software-related achievements or education"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'Software Engineer' role, which requires technical skills in software development, programming languages, and possibly system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in any role, these do not align directly with the core requirements of a software engineer position. The resume also appears to be poorly formatted and contains some typos or formatting issues, which may indicate a lack of attention to detail.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.313,
+    "processing_time_ms": 4313.1
+  },
+  {
+    "id": "1c69b421",
+    "timestamp": "2025-09-08T01:14:44.385337",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. A weak match due to mismatched expertise.",
+    "strengths": [
+      "Strong project management experience",
+      "Leadership and cross-functional collaboration skills",
+      "Track record of delivering projects on time"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills relevant to software engineering",
+      "No mention of programming languages or software development experience",
+      "Poorly formatted resume with unclear content"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description specifies a 'software engineer' role, which requires technical skills in software development, programming languages, and possibly system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in any role, these do not align directly with the core requirements of a software engineer position. The resume also appears to be poorly formatted and contains some unclear or fragmented text, which may indicate a lack of attention to detail.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.311,
+    "processing_time_ms": 4310.8
+  },
+  {
+    "id": "68655e71",
+    "timestamp": "2025-09-08T01:14:53.475205",
+    "candidate_name": "Olivia Johnson",
+    "filename": "resume_5.pdf",
+    "match_score": 85,
+    "summary": "Olivia Johnson is a strong candidate for a Software Engineer role with relevant experience and technical skills. While her resume is well-structured and aligned with the general requirements, additional details on specific projects and outcomes would enhance her match for more specialized positions.",
+    "strengths": [
+      "Experience at a reputable company (Bloomberg) in relevant roles",
+      "Strong technical skill set including cloud computing, microservices, and web development tools",
+      "Relevant professional summary highlighting software engineering expertise"
+    ],
+    "improvement_areas": [
+      "Lack of detailed project descriptions or measurable outcomes",
+      "No specific mention of soft skills or team collaboration beyond 'collaborated with cross-functional teams'",
+      "Limited information on industry-specific experience (e.g., finance, healthcare, etc.)"
+    ],
+    "reasoning": "Olivia Johnson has a strong background in software engineering, with experience at Bloomberg as both a Software Engineer and Full Stack Developer. She has worked on real-time trading platforms and cloud-based applications, which aligns well with the responsibilities of a Software Engineer role. Her technical skills include C++, Node.js, Docker, Kubernetes, React, and REST APIs—key technologies often sought in software engineering positions. However, the job description is very general and does not specify particular technologies or industries, which limits the ability to assess deeper alignment. Additionally, there is no mention of specific projects, contributions, or metrics that could further strengthen her profile for a more specialized role.",
+    "recommendation": "Good Match",
+    "processing_time": 4.717,
+    "processing_time_ms": 4717.1
+  },
+  {
+    "id": "24c23536",
+    "timestamp": "2025-09-08T01:16:58.788547",
+    "candidate_name": "AlexanderersonAndersonilsonnen",
+    "filename": "1.pdf",
+    "match_score": 35,
+    "summary": "The candidate has strong project management experience but lacks the technical qualifications and software engineering skills required for the role. This resume does not align well with the job description.",
+    "strengths": [
+      "Strong project management experience with a reputable company (Siemens)",
+      "Demonstrated ability to deliver projects on time and collaborate with cross-functional teams",
+      "Leadership and communication skills that are transferable to many roles"
+    ],
+    "improvement_areas": [
+      "Lack of technical skills or software engineering experience",
+      "No mention of programming languages, development tools, or software projects",
+      "Poorly formatted resume with unclear or fragmented content",
+      "No specific mention of software engineering-related achievements or education"
+    ],
+    "reasoning": "The candidate's resume shows a strong background in project management, particularly in the construction industry, with experience at Siemens from 2019 to 2024. However, the job description is for a 'Software Engineer' role, which requires technical skills in software development, programming languages, and possibly system design. The resume lacks any mention of software engineering experience, coding skills, or relevant technical qualifications. While the candidate has leadership and communication skills that are valuable in any role, these do not align with the core requirements of a software engineer position. The resume also appears to be poorly formatted and contains some unclear or fragmented text, which may indicate a lack of attention to detail.",
+    "recommendation": "Weak Match",
+    "processing_time": 4.936,
+    "processing_time_ms": 4935.5
   }
 ]
