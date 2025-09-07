@@ -9,6 +9,7 @@ const navLinks = document.querySelector('.nav-links');
 let uploadedFiles = [];
 let processedFiles = new Set(); // Track files that have been processed
 let previousResults = []; // Store previous analysis results for collapsed display
+let filesEverUploaded = false; // Track if files have ever been uploaded in this session
 
 // Function to sort previous results by score (high to low) then by firstname alphabetically
 function sortPreviousResults(results) {
@@ -162,6 +163,10 @@ function handleFiles(files) {
         
         // Add file to upload queue
         uploadedFiles.push(file);
+        
+        // Mark that files have been uploaded in this session
+        filesEverUploaded = true;
+        console.log('📁 File uploaded, filesEverUploaded set to true');
     });
 
     updateUploadDisplay();
@@ -219,6 +224,69 @@ function showUploadTooltip() {
     }, 100);
 }
 
+function showJobInputTooltip() {
+    console.log('🔍 showJobInputTooltip called');
+    
+    // Remove any existing tooltip
+    const existingTooltip = document.querySelector('.job-input-tooltip');
+    if (existingTooltip) {
+        console.log('🗑️ Removing existing tooltip');
+        existingTooltip.remove();
+    }
+    
+    // Create tooltip element
+    const tooltip = document.createElement('div');
+    tooltip.className = 'job-input-tooltip';
+    tooltip.innerHTML = `
+        <div class="tooltip-content">
+            <i class="fas fa-info-circle"></i>
+            <span>Please refresh the page to start a new screening session.</span>
+        </div>
+        <div class="tooltip-arrow"></div>
+    `;
+    
+    // Position tooltip relative to job input
+    const jobInputRect = jobInput.getBoundingClientRect();
+    console.log('📍 Job input rect:', jobInputRect);
+    
+    // Position tooltip above the job input
+    tooltip.style.position = 'fixed';
+    tooltip.style.left = `${jobInputRect.left + (jobInputRect.width / 2) - 125}px`;
+    tooltip.style.top = `${jobInputRect.top - 10}px`;
+    tooltip.style.zIndex = '10001';
+    
+    console.log('📍 Tooltip position:', {
+        left: tooltip.style.left,
+        top: tooltip.style.top,
+        zIndex: tooltip.style.zIndex
+    });
+    
+    // Add tooltip to page
+    document.body.appendChild(tooltip);
+    console.log('✅ Tooltip added to DOM');
+    
+    // Auto-remove tooltip after 4 seconds
+    setTimeout(() => {
+        if (tooltip && tooltip.parentNode) {
+            console.log('⏰ Auto-removing tooltip');
+            tooltip.remove();
+        }
+    }, 4000);
+    
+    // Remove tooltip when user clicks anywhere
+    const removeTooltip = () => {
+        if (tooltip && tooltip.parentNode) {
+            console.log('🖱️ Removing tooltip on click');
+            tooltip.remove();
+        }
+        document.removeEventListener('click', removeTooltip);
+    };
+    
+    setTimeout(() => {
+        document.addEventListener('click', removeTooltip);
+    }, 100);
+}
+
 function updateUploadDisplay() {
     // Keep the upload area unchanged - don't modify the visual state
     // The original drop zone interface remains visible at all times
@@ -229,6 +297,9 @@ function removeFile(index) {
     uploadedFiles.splice(index, 1);
     updateUploadDisplay();
     updateScreenButton();
+    
+    // Note: Job input remains disabled if filesEverUploaded is true
+    // This ensures job description stays locked after any file upload in the session
 }
 
 // Job Input Functionality
@@ -240,11 +311,64 @@ function updateScreenButton() {
     const hasJobDescription = jobInput.value.trim().length > 10;
     const hasFiles = uploadedFiles.length > 0;
     
+    console.log('🔧 updateScreenButton called:', { hasJobDescription, hasFiles, filesEverUploaded });
+    
     // Update upload area visual state based on job description
     if (hasJobDescription) {
         uploadArea.classList.remove('disabled');
     } else {
         uploadArea.classList.add('disabled');
+    }
+    
+    // Disable job input permanently after files have ever been uploaded
+    if (filesEverUploaded) {
+        console.log('🔒 Disabling job input - filesEverUploaded is true');
+        jobInput.disabled = true;
+        jobInput.classList.add('disabled');
+        jobInput.title = 'Job description cannot be modified after files are uploaded. Refresh the page to start a new session.';
+        
+        // Add click handler to show tooltip when trying to modify disabled input
+        if (!jobInput.hasAttribute('data-tooltip-added')) {
+            console.log('➕ Adding tooltip event listeners');
+            jobInput.addEventListener('click', showJobInputTooltip);
+            jobInput.addEventListener('focus', showJobInputTooltip);
+            jobInput.addEventListener('mouseenter', showJobInputTooltip);
+            jobInput.setAttribute('data-tooltip-added', 'true');
+        } else {
+            console.log('ℹ️ Tooltip event listeners already added');
+        }
+    } else if (hasFiles) {
+        console.log('🔒 Disabling job input - hasFiles is true');
+        // Files are currently uploaded but not processed yet
+        jobInput.disabled = true;
+        jobInput.classList.add('disabled');
+        jobInput.title = 'Job description cannot be modified after files are uploaded. Refresh the page to start a new session.';
+        
+        // Add click handler to show tooltip when trying to modify disabled input
+        if (!jobInput.hasAttribute('data-tooltip-added')) {
+            console.log('➕ Adding tooltip event listeners');
+            jobInput.addEventListener('click', showJobInputTooltip);
+            jobInput.addEventListener('focus', showJobInputTooltip);
+            jobInput.addEventListener('mouseenter', showJobInputTooltip);
+            jobInput.setAttribute('data-tooltip-added', 'true');
+        } else {
+            console.log('ℹ️ Tooltip event listeners already added');
+        }
+    } else {
+        console.log('🔓 Enabling job input - no files uploaded');
+        // No files uploaded, enable job input
+        jobInput.disabled = false;
+        jobInput.classList.remove('disabled');
+        jobInput.title = '';
+        
+        // Remove tooltip handlers if they exist
+        if (jobInput.hasAttribute('data-tooltip-added')) {
+            console.log('➖ Removing tooltip event listeners');
+            jobInput.removeEventListener('click', showJobInputTooltip);
+            jobInput.removeEventListener('focus', showJobInputTooltip);
+            jobInput.removeEventListener('mouseenter', showJobInputTooltip);
+            jobInput.removeAttribute('data-tooltip-added');
+        }
     }
     
     // Automatically trigger screening when both conditions are met
@@ -790,6 +914,9 @@ function callUploadAPI() {
             
             // Clear the upload queue since files have been processed
             uploadedFiles = [];
+            
+            // Note: Job input remains disabled permanently after files are uploaded
+            // User must refresh the page to start a new session
             
             // Show processing summary if multiple files
             if (data.total_files > 1) {
@@ -1431,6 +1558,21 @@ function testPreviousResults() {
 
 // Add test button to page (remove in production)
 window.testPreviousResults = testPreviousResults;
+
+// Test function to manually trigger job input tooltip (for debugging)
+function testJobInputTooltip() {
+    console.log('🧪 Testing job input tooltip manually');
+    console.log('📊 Current state:', {
+        filesEverUploaded,
+        uploadedFiles: uploadedFiles.length,
+        jobInputDisabled: jobInput.disabled,
+        hasTooltipListeners: jobInput.hasAttribute('data-tooltip-added')
+    });
+    showJobInputTooltip();
+}
+
+// Make test function available globally
+window.testJobInputTooltip = testJobInputTooltip;
 
 // Test API connectivity
 function testAPIConnection() {
