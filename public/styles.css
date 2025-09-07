@@ -44,7 +44,7 @@ body {
 .nav-brand {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 0.3rem;
     font-size: 1.5rem;
     font-weight: 700;
     color: #1f2937;
@@ -55,7 +55,7 @@ body {
     color: white;
     width: 2.5rem;
     height: 2.5rem;
-    border-radius: 0.75rem;
+    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,7 +114,7 @@ body {
 /* Buttons */
 .btn-primary, .btn-secondary, .btn-outline {
     padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 0;
     font-weight: 600;
     text-decoration: none;
     border: none;
@@ -174,9 +174,7 @@ body {
     align-items: center;
 }
 
-.hero-text {
-    /* Empty hero text container - keeping for potential future content */
-}
+/* .hero-text - removed empty ruleset */
 
 /* Demo Section Layout */
 .demo-section-main {
@@ -198,7 +196,7 @@ body {
 }
 
 .demo-left {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     padding-right: 1.5rem;
@@ -206,7 +204,7 @@ body {
 }
 
 .demo-right {
-    width: 50%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     padding-left: 1.5rem;
@@ -240,7 +238,7 @@ body {
     height: 100%; 
     padding: 1.5rem;
     border: 2px solid #e5e7eb;
-    border-radius: 0.75rem;
+    border-radius: 0;
     font-family: inherit;
     resize: none; /* Changed from vertical to none since we want fixed height */
     transition: border-color 0.2s;
@@ -257,7 +255,7 @@ body {
 
 .upload-area {
     border: 2px dashed #d1d5db;
-    border-radius: 0.75rem;
+    border-radius: 0;
     padding: 2rem;
     text-align: center;
     cursor: pointer;
@@ -359,7 +357,7 @@ body {
 .feature-card {
     background: white;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 0;
     text-align: center;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -374,7 +372,7 @@ body {
     width: 4rem;
     height: 4rem;
     background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-    border-radius: 1rem;
+    border-radius: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -423,7 +421,7 @@ body {
     align-items: flex-start;
     gap: 1rem;
     padding: 1.5rem;
-    border-radius: 0.75rem;
+    border-radius: 0;
     background: #f8fafc;
 }
 
@@ -468,7 +466,7 @@ body {
 .testimonial-card {
     background: white;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 0;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
@@ -515,7 +513,7 @@ body {
 .faq-item {
     padding: 1.5rem;
     background: #f8fafc;
-    border-radius: 0.75rem;
+    border-radius: 0;
     border-left: 4px solid #3b82f6;
 }
 
@@ -606,12 +604,12 @@ body {
     }
     
     .demo-left {
-        width: 50vw; /* Keep 50% viewport width */
+        width: 40vw; /* Keep 40% viewport width */
         padding-right: 1rem; /* Reduce padding on smaller screens */
     }
     
     .demo-right {
-        width: 50vw; /* Keep 50% viewport width */
+        width: 60vw; /* Keep 60% viewport width */
         padding-left: 1rem; /* Reduce padding on smaller screens */
     }
     
@@ -698,6 +696,70 @@ body {
     }
 }
 
+/* Upload Tooltip Styles */
+.upload-tooltip {
+    position: fixed;
+    background: #1f2937;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    animation: tooltipFadeIn 0.2s ease-out;
+    pointer-events: none;
+    max-width: 200px;
+    text-align: center;
+}
+
+.tooltip-content {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.tooltip-content i {
+    color: #3b82f6;
+    font-size: 1rem;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #1f2937;
+}
+
+@keyframes tooltipFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Disabled upload area state */
+.upload-area.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #f9fafb;
+    border-color: #d1d5db;
+}
+
+.upload-area.disabled:hover {
+    border-color: #d1d5db;
+    background: #f9fafb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
 /* File Upload States */
 .upload-area.dragover {
     border-color: #3b82f6;
@@ -767,7 +829,7 @@ body {
 .api-response {
     margin-top: 1rem;
     padding: 1rem;
-    border-radius: 0.5rem;
+    border-radius: 0;
     background: #f8fafc;
     border: 1px solid #e5e7eb;
 }
@@ -831,18 +893,64 @@ body {
 .result-section {
     background: white;
     border: 2px solid #e5e7eb;
-    border-radius: 0.75rem;
-    padding: 1.5rem;
+    border-radius: 0;
     height: calc(80% - 1rem); /* Remaining height minus margin */
-    overflow-y: auto; /* Allow scrolling if content is long */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .result-content {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+/* Two-column layout for multiple candidates */
+.results-two-column-layout {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/* 左侧面板 - Previous Results */
+.results-left-panel {
+    min-width: 25%;
+    max-width: 25%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.results-left-header {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.results-left-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+/* 右侧面板 - 详细分析 */
+.results-right-panel {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    box-sizing: border-box;
+}
+
+.results-right-content {
+    flex: 1;
 }
 
 .result-placeholder {
@@ -853,6 +961,7 @@ body {
     height: 100%;
     color: #6b7280;
     text-align: center;
+    padding: 2rem;
 }
 
 .result-placeholder i {
@@ -875,9 +984,11 @@ body {
 
 /* Analysis Results Styling */
 .analysis-results {
-    height: 100%;
+    flex: 1;
     display: flex;
     flex-direction: column;
+    overflow-y: auto;
+    padding: 0.5rem;
 }
 
 .result-header {
@@ -915,7 +1026,11 @@ body {
     margin-bottom: 2rem;
     padding: 1.5rem;
     background: #f8fafc;
-    border-radius: 0.75rem;
+    border-radius: 0;
+}
+
+.candidate-info {
+    max-width: 80%;
 }
 
 .candidate-name {
@@ -923,6 +1038,9 @@ body {
     font-weight: 700;
     color: #1f2937;
     margin-bottom: 0.25rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .file-name {
@@ -942,22 +1060,74 @@ body {
     text-align: center;
 }
 
+.match-score {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0.5rem;
+}
+
 .score-number {
     font-size: 3rem;
     font-weight: 800;
     line-height: 1;
 }
 
+/* Score-based gradient colors */
+.match-score.score-excellent,
+.recommendation-badge.score-excellent {
+    color: #064e3b; /* 深绿色 - 90-100分 */
+}
+
+.match-score.score-good,
+.recommendation-badge.score-good {
+    color: #059669; /* 绿色 - 80-89分 */
+}
+
+.match-score.score-fair,
+.recommendation-badge.score-fair {
+    color: #16a34a; /* 浅绿色 - 70-79分 */
+}
+
+.match-score.score-average,
+.recommendation-badge.score-average {
+    color: #ca8a04; /* 黄色 - 60-69分 */
+}
+
+.match-score.score-below,
+.recommendation-badge.score-below {
+    color: #ea580c; /* 橙色 - 50-59分 */
+}
+
+.match-score.score-poor,
+.recommendation-badge.score-poor {
+    color: #dc2626; /* 红色 - 0-49分 */
+}
+
+/* Legacy support for old classes */
 .score-number.positive {
-    color: #065f46;
+    color: #059669;
 }
 
 .score-number.negative {
-    color: #991b1b;
+    color: #dc2626;
 }
 
 .score-number.neutral {
     color: #374151;
+}
+
+.recommendation-badge {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid currentColor;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.5rem;
 }
 
 .score-label {
@@ -967,24 +1137,7 @@ body {
     margin-top: 0.25rem;
 }
 
-.recommendation-badge {
-    padding: 0.5rem 1rem;
-    border-radius: 2rem;
-    font-weight: 600;
-    font-size: 0.875rem;
-}
-
-.recommendation-badge.positive {
-    color: #065f46;
-}
-
-.recommendation-badge.negative {
-    color: #991b1b;
-}
-
-.recommendation-badge.neutral {
-    color: #374151;
-}
+/* Legacy recommendation badge styles removed - using new score-based styles above */
 
 .analysis-details {
     flex: 1;
@@ -1081,4 +1234,142 @@ body {
     font-size: 1rem;
     color: #6b7280;
     margin-bottom: 1.5rem;
+}
+
+/* Previous Results Styling - 适配左侧面板 */
+.previous-results {
+    margin-bottom: 0;
+    max-height: 40%;
+    overflow-y: auto;
+    border-bottom: 1px solid #e5e7eb;
+    flex-shrink: 0;
+}
+
+/* Removed previous-results-header, h4, and clear-history-btn styles since they're no longer needed */
+
+.previous-results-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.previous-result-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 0;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 0;
+    border-bottom: none;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+.previous-result-item:last-child {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Current result styling */
+.previous-result-item.current-result {
+    background: #eff6ff;
+    border-color: #3b82f6;
+    font-weight: 600;
+    cursor: default;
+}
+
+.previous-result-item.current-result:hover {
+    background: #eff6ff;
+    border-color: #3b82f6;
+    transform: none;
+}
+
+.previous-result-item:hover {
+    background: #f3f4f6;
+    border-color: #d1d5db;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.previous-score {
+    font-weight: 700;
+    font-size: 0.875rem;
+    width: 1rem;
+    text-align: left;
+    flex-shrink: 0;
+}
+
+.previous-candidate-name {
+    font-weight: 600;
+    color: #374151;
+    font-size: 0.875rem;
+    flex: 1;
+    margin-left: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Previous results score colors */
+.previous-score.score-excellent {
+    color: #064e3b; /* 深绿色 - 90-100分 */
+}
+
+.previous-score.score-good {
+    color: #059669; /* 绿色 - 80-89分 */
+}
+
+.previous-score.score-fair {
+    color: #16a34a; /* 浅绿色 - 70-79分 */
+}
+
+.previous-score.score-average {
+    color: #ca8a04; /* 黄色 - 60-69分 */
+}
+
+.previous-score.score-below {
+    color: #ea580c; /* 橙色 - 50-59分 */
+}
+
+.previous-score.score-poor {
+    color: #dc2626; /* 红色 - 0-49分 */
+}
+
+/* Legacy support */
+.previous-score.positive {
+    color: #059669;
+}
+
+.previous-score.negative {
+    color: #dc2626;
+}
+
+.previous-score.neutral {
+    color: #6b7280;
+}
+
+/* Previous expand icon styles removed since we no longer use arrows */
+
+/* Current Result Header styles removed since we no longer use the header */
+
+/* Responsive Design for Previous Results */
+@media (max-width: 768px) {
+    .previous-result-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+    
+    .previous-candidate-name {
+        font-size: 1rem;
+    }
+    
+    .previous-score {
+        font-size: 1rem;
+        margin-right: 0;
+    }
+    
+    /* Previous expand icon removed */
 }
